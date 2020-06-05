@@ -1,0 +1,200 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+// Variables
+@import "variables";
+
+//* Setting up the Content Sections
+.main-page {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 100vh;
+    margin-left: 265px;
+    scroll-behavior: smooth;
+  
+    .content-section {
+      flex: 0 0 auto;
+      width: calc((100vw - 265px) / 1);
+      overflow-y: auto;
+      max-height: 100vh;
+    }
+
+    .bg1 {
+       // background-color: lightblue;
+    }
+
+    .bg2 {
+     //   background-color: lightcoral;
+    }
+
+    .inner-container {
+        margin: 50px;
+    }
+
+}
+
+// Containers for Education
+#education-container {
+    padding-top: 20px;
+}
+
+.educard {
+    min-width: 400px;
+    width: 30%;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    padding:0;
+    float:left; 
+}
+
+.educard .info {
+    border-top: 1px solid rgb(172, 172, 172);
+    border-left: 1px solid rgb(172, 172, 172);
+    border-right: 1px solid rgb(172, 172, 172);
+    border-top-left-radius: $educard-border-radius;
+    border-top-right-radius: $educard-border-radius;
+    -webkit-box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+    height: 180px;
+}
+
+.educard .school {
+    border: 0px solid rgb(136, 136, 136);
+    background-color: rgb(100, 27, 134);
+    color: rgb(235, 235, 235);
+    border-bottom-left-radius: $educard-border-radius;
+    border-bottom-right-radius: $educard-border-radius;
+    -webkit-box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+    height: 70px;
+}
+
+.educard .logo {
+    float:left;
+    margin: 10px;
+    text-align: center;
+}
+
+.educard .school-name {
+    font-family: Oswald;
+    font-size: 35px;
+    text-align: right;
+    margin: auto 20px;
+}
+
+.educard .year {
+    font-size: 20px;
+    font-weight: 600;
+    color: $main-page-font;
+}
+
+// Experience Page CSS
+.jobcards {
+    display: grid;
+    grid-template-columns: [icon] 1fr [year] 4fr [experience] 14fr;
+    border-top: 1px solid darkgray;
+    color: $main-page-font;
+}
+
+.jobcards .year {
+    grid-area: "year";
+    text-align: left;
+    padding: 0px 10px;
+    margin: 40px 0px;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.jobcards .year h4 {
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 30px;
+    margin: 0px;
+}
+
+.jobcards .year h5 {
+    font-size: 18px;
+    font-weight: 200;
+    margin: 0px;
+}
+
+.jobcards .year h6 {
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.jobcards .experience {
+    grid-area: "experience";
+    font-size: 16px;
+    text-align: left;
+    padding: 0px 10px;
+    margin: auto 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.jobicon {
+    float:right;
+    margin: 40px 0px;
+}
+
+.jobicon i {
+    font-size: 60px;
+}
+
+.jobcards i {
+    transition: font-size .25s;
+}
+
+.jobcards:hover i {
+    font-size: 65px;
+    color: rgb(175, 109, 10);
+}
+
+// Text Formatting
+.main-page .title {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    color: $main-page-header;
+    font-size: 45px;
+}
+
+.title-divider {
+    width: 20%;
+    height: 2px;
+    background-color: $color-primary;
+    margin: 20px 0 30px 0;
+}
+
+// Fix for smaller windows
+/* On screens that are less than 700px wide, make the nav-panel into a topbar */
+@media screen and (max-width: 700px) {
+    .main-page {
+      flex-direction: column;
+      .content-section {
+        flex: 0 0 auto;
+        width: 100vw;
+        overflow-x: auto;
+        max-height: 100vh;
+      }
+
+    }
+    .jobcards {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .jobcards .experience {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        padding-bottom: 10px;
+    }
+  }
+  
