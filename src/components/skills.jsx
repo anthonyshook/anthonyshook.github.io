@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import data from "./cv.json"; 
+
+const techSkills = data.techSkills;
 
 export default class Skills extends Component {
     render() {
@@ -8,7 +11,16 @@ export default class Skills extends Component {
                     <div class='inner-container'>
                         <div class='title'>Skills</div>
                         <div class='title-divider'></div>
-                        Skills
+                        {techSkills.map(ts => (
+                            <div>
+                                <h2>{ ts.Area } </h2>
+                                {ts.SkillSet.map(ss => (
+                                    <div>
+                                        {ss.Name}{(ss.Rating > 0) ? ' -- ' + ss.Rating : null}
+                                    </div>
+                                ))} 
+                            </div>
+                        ))}
                     </div>
                 </section>
             </div>

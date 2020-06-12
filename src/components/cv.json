@@ -1,0 +1,221 @@
+{
+    "Education": [
+      {
+        "school": "Northwestern University",
+        "gradYear": 2014,
+        "degree": "Doctor of Philosophy (Ph.D)",
+        "dept": "Communication Sciences & Disorders",
+        "focus": "Cognitive Science / Psycholinguistics",
+        "logopath": "images/NU_seal2.png"
+      },
+      {
+        "school": "University of Rochester",
+        "gradYear": 2006,
+        "degree": "Bachelor of Arts (B.A.)",
+        "dept": "Brain & Cognitive Sciences",
+        "focus": "Psycholinguistics",
+        "logopath": "images/UR_seal.png"
+      }
+    ],
+    "PeerReviewedArticles": [
+      {
+        "authors": "Hayakawa, S., Shook, A., & Marian, V.",
+        "year": 2020,
+        "title": "When it’s harder to ignorar than to ignore: Evidence of greater attentional capture from a non-dominant language.",
+        "journal": "International Journal of Bilingualism",
+        "doi": "10.1177/1367006920915277"
+      },
+      {
+        "authors": "Shook, A., & Marian, V.",
+        "year": 2018,
+        "title": "Covert co-activation of bilinguals' non-target language: Phonological competition from translations.",
+        "journal": "Linguistic Approaches to Bilingualism",
+        "doi": "10.1075/lab.17022.sho"
+      },
+      {
+        "authors": "Shook, A., & Marian, V.",
+        "year": 2016,
+        "title": "The influence of native-language tones on lexical access in the second language.",
+        "journal": "Journal of the Acoustical Society of America",
+        "doi": "10.1121/1.4953692"
+      },
+      {
+        "authors": "Schroeder, S. R., Marian, V., Shook, A., & Bartolotti, J.",
+        "year": 2016,
+        "title": "Bilingualism and musicianship enhance cognitive control.",
+        "journal": "Neural Plasticity",
+        "doi": "10.1155/2016/4058620"
+      },
+      {
+        "authors": "Giezen, M. R., Blumenfeld, H. K., Shook, A., Marian, V., & Emmorey, K.",
+        "year": 2015,
+        "title": "Parallel language activation and inhibitory control in bimodal bilinguals.",
+        "journal": "Cognition",
+        "doi": "10.1016/j.cognition.2015.04.009"
+      },
+      {
+        "authors": "Shook, A., Goldrick, M., Engstler, C., & Marian, V.",
+        "year": 2014,
+        "title": "Bilinguals show weaker lexical access during spoken sentence comprehension.",
+        "journal": "Journal of Psycholinguistic Research",
+        "doi": "10.1007/s10936-014-9322-6"
+      },
+      {
+        "authors": "Shook, A., & Marian, V.",
+        "year": 2013,
+        "title": "The Bilingual Language Interaction Network for Comprehension of Speech.",
+        "journal": "Bilingualism: Language and Cognition",
+        "doi": "10.1017/S1366728912000466"
+      },
+      {
+        "authors": "Marian, V., Shook, A., & Schroeder, S. R.",
+        "year": 2013,
+        "title": "Bilingual two-way immersion programs benefit academic achievement.",
+        "journal": "Bilingual Research Journal",
+        "doi": "10.1080/15235882.2013.818075"
+      },
+      {
+        "authors": "Shook, A., Bartolotti, J., Schroeder, S. R., & Marian, V.",
+        "year": 2013,
+        "title": "Musical experience influences novel language learning.",
+        "journal": "American Journal of Psychology",
+        "doi": "10.5406/amerjpsyc.126.1.0095"
+      },
+      {
+        "authors": "Marian, V., Bartolotti, J., Chabal, S., & Shook, A.",
+        "year": 2012,
+        "title": "CLEARPOND: Cross-Linguistic Easy-Access Resource for Phonological and Orthographic Neighborhood Densities.",
+        "journal": "PLoS ONE",
+        "doi": "10.1371/journal.pone.004323"
+      },
+      {
+        "authors": "Shook, A., & Marian, V.",
+        "year": 2012,
+        "title": "Bimodal bilinguals co-activate both languages during spoken comprehension.",
+        "journal": "Cognition",
+        "doi": "10.1016/j.cognition.2012.05.014"
+      },
+      {
+        "authors": "Krizman, J., Marian, V., Shook, A., Skoe, E., & Kraus, N.",
+        "year": 2012,
+        "title": "Subcortical encoding of sound is enhanced in bilinguals and relates to executive function advantages.",
+        "journal": "Proceedings of the National Academy of Sciences",
+        "doi": "10.1073/pnas.1201575109"
+      },
+      {
+        "authors": "Bartolotti, J., Marian, V., Schroeder, S. R., & Shook, A.",
+        "year": 2011,
+        "title": "Bilingualism and inhibitory control influence statistical learning of novel word forms.",
+        "journal": "Frontiers in Cognition",
+        "doi": "10.3389/fpsyg.2011.00324"
+      }
+    ],
+    "confPresentations": [
+      {
+        "authors": "Marian, V., Bartolotti, J., Shook, A., Schroeder, S.",
+        "title": "Research tutorial: Assessing phonological and orthographic neighborhood density in English, Spanish, French, German, and Dutch.",
+        "conf": "Abstracts of the AILA 2017 World Congress of Applied Linguistics",
+        "location": "Rio de Janeiro, Brazil",
+        "when": "2017, July"
+      },
+      {
+        "authors": "Shook, A., & Marian, V.",
+        "title": "Native-language Tones Influence Lexical Access in the Second Language.",
+        "conf": "International Meeting of the Psychonomic Society",
+        "location": "Granada, Spain",
+        "when": "2016, May"
+      },
+      {
+        "authors": "Shook, A., & Marian, V.",
+        "title": "Automatic Activation of Translation Equivalents During Bilingual Spoken Comprehension.",
+        "conf": "Annual Meeting of the Psychonomic Society",
+        "location": "Long Beach, CA",
+        "when": "2014, November"
+      },
+      {
+        "authors": "Shook, A., & Marian, V.",
+        "title": " Language Co-Activation in Single-Language Contexts.",
+        "conf": "University of Illinois-Chicago Bilingualism Forum",
+        "location": "Chicago, IL",
+        "when": "2014, October"
+      }
+    ],
+    "techSkills": [
+      {
+        "Area": "Languages",
+        "SkillSet": [
+          {
+            "Name": "R",
+            "Rating": 100
+          },
+          {
+            "Name": "Python",
+            "Rating": 80
+          },
+          {
+            "Name": "Perl",
+            "Rating": 40
+          },
+          {
+            "Name": "Julia",
+            "Rating": 30
+          }
+        ]
+      },
+      {
+        "Area": "Web Development",
+        "SkillSet": [
+          {
+            "Name": "HTML / CSS (SASS)",
+            "Rating": 80
+          },
+          {
+            "Name": "PHP",
+            "Rating": 50
+          },
+          {
+            "Name": "Apache",
+            "Rating": -1            
+          },
+          {
+            "Name": "NGINX",
+            "Rating": -1
+          }
+        ]
+      },
+      {
+        "Area": "Databases",
+        "SkillSet": [
+          {
+            "Name": "MySQL",
+            "Rating": 90
+          },
+          {
+            "Name": "PostgreSQL",
+            "Rating": 90
+          },
+          {
+            "Name": "Snowflake",
+            "Rating": 90
+          },
+          {
+            "Name": "Transact-SQL",
+            "Rating": 80
+          }
+        ]
+      },
+      {
+        "Area": "Data Visualization",
+        "SkillSet": [
+          {
+            "Name": "Looker",
+            "Rating": 90
+          },
+          {
+            "Name": "Shiny",
+            "Rating": 90
+          }
+        ]
+      }        
+    ]   
+    }
