@@ -11,16 +11,20 @@ export default class Skills extends Component {
                     <div class='inner-container'>
                         <div class='title'>Skills</div>
                         <div class='title-divider'></div>
+                        <div class='skill-container'>
                         {techSkills.map(ts => (
                             <div>
-                                <h2>{ ts.Area } </h2>
-                                {ts.SkillSet.map(ss => (
-                                    <div>
-                                        {ss.Name}{(ss.Rating > 0) ? ' -- ' + ss.Rating : null}
-                                    </div>
-                                ))} 
+                            <div id='area'>{ ts.Area } </div>
+                                <div class='skill-card-container'>
+                                    {ts.SkillSet.map(ss => (
+                                        <div class = 'skill-card'>
+                                            {ss.Name}
+                                        </div>
+                                    ))} 
+                                </div>
                             </div>
                         ))}
+                        </div>
                     </div>
                 </section>
             </div>

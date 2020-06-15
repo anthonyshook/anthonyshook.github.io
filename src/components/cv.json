@@ -1,4 +1,46 @@
 {
+  "Employment": [
+    {
+      "title": "Lead Data Scientist",
+      "employer": "Jellyvision Labs, Inc.",
+      "start": "Nov. 2018",
+      "end": "Present",
+      "icon": "icon-lab2",
+      "desc": "Manage the Data Analytics team, which analyzes event-stream data from our core product, ALEX, and provides insights through dashboards and ad-hoc analyses to both customers and internal stakeholders; maintenence of Analytics infrastruture; Research and development of data-driven solutions, working closely with product teams."
+    },
+    {
+      "title": "VP of Data & Operations",
+      "employer": "RotoViz, LLC.",
+      "start": "Jan. 2018",
+      "end": "Present",
+      "icon": "icon-data",
+      "desc": "Maintainence and Developement of Server Infrastructure for subscription based e-commerce / blogging website focused on Fantasy Sports analytics; Responsibilities include developing ETL pipelines for sports analytics data, maintaining website and data pipeline infrastructure, and developing Shiny-based web applications."
+    },
+    {
+      "title": "Senior Data Scientist",
+      "employer": "Mattersight Corporation",
+      "start": "Aug. 2016",
+      "end": "Nov. 2018",
+      "icon": "icon-phone3",
+      "desc": "Technical lead for development and implementation of predictive models for call centers to optimize key performance metrics such as talk time, customer satisfaction, and sales rates using various Machine Learning techniques; Analysis of unstructured linguistic data using unsupervised learning and clustering techniques."
+    },
+    {
+      "title": "Data Analyst",
+      "employer": "Mbira Technologies",
+      "start": "March 2015",
+      "end": "July 2016",
+      "icon":"icon-bar-graph-2",
+      "desc":"Responsibilities: A/B and multivariant testing; data management and reporting; development of statistical models for predicting customer behavior and monitoring key performance metrics on large and varied data; communication of statistical findings to marketing, business, and project management."
+    },
+    {
+      "title": "Visiting Assistant Professor",
+      "employer": "Northwestern University",
+      "start": "Sep. 2014",
+      "end": "Dec. 2015",
+      "icon": "icon-study",
+      "desc": "Professor in Communication Sciences and Disorders at Northwestern University. Responsibilities included teaching undergraduate and graduate level college courses, serving on academic and departmental committees at the University."
+    }
+  ],
     "Education": [
       {
         "school": "Northwestern University",
@@ -142,23 +184,19 @@
     ],
     "techSkills": [
       {
-        "Area": "Languages",
+        "Area": "Programming Languages",
         "SkillSet": [
           {
-            "Name": "R",
-            "Rating": 100
+            "Name": "R"
           },
           {
-            "Name": "Python",
-            "Rating": 80
+            "Name": "Python"
           },
           {
-            "Name": "Perl",
-            "Rating": 40
+            "Name": "Perl"
           },
           {
-            "Name": "Julia",
-            "Rating": 30
+            "Name": "Julia"
           }
         ]
       },
@@ -166,20 +204,16 @@
         "Area": "Web Development",
         "SkillSet": [
           {
-            "Name": "HTML / CSS (SASS)",
-            "Rating": 80
+            "Name": "HTML / CSS (SASS)"
           },
           {
-            "Name": "PHP",
-            "Rating": 50
+            "Name": "PHP"
           },
           {
-            "Name": "Apache",
-            "Rating": -1            
+            "Name": "NGINX"
           },
           {
-            "Name": "NGINX",
-            "Rating": -1
+            "Name": "Apache"   
           }
         ]
       },
@@ -187,33 +221,47 @@
         "Area": "Databases",
         "SkillSet": [
           {
-            "Name": "MySQL",
-            "Rating": 90
+            "Name": "MySQL"
           },
           {
-            "Name": "PostgreSQL",
-            "Rating": 90
+            "Name": "PostgreSQL"
           },
           {
-            "Name": "Snowflake",
-            "Rating": 90
+            "Name": "Snowflake"
           },
           {
-            "Name": "Transact-SQL",
-            "Rating": 80
+            "Name": "Transact-SQL"
           }
         ]
       },
       {
-        "Area": "Data Visualization",
+        "Area": "Data Visualization and Reporting",
         "SkillSet": [
           {
-            "Name": "Looker",
-            "Rating": 90
+            "Name": "Looker"
           },
           {
-            "Name": "Shiny",
-            "Rating": 90
+            "Name": "Shiny"
+          }
+        ]
+      },
+      {
+        "Area": "Machine Learning & Statistics",
+        "SkillSet": [
+          {
+            "Name": "Keras"
+          },
+          {
+            "Name": "Tensorflow"
+          },
+          {
+            "Name": "caret"
+          },
+          {
+            "Name": "scikit-learn"
+          },
+          {
+            "Name": "PyTorch"
           }
         ]
       }        

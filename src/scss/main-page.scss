@@ -15,6 +15,8 @@
     height: 100vh;
     margin-left: 265px;
     scroll-behavior: smooth;
+    background-color: $color-content-bg;
+
   
     .content-section {
       flex: 0 0 auto;
@@ -71,6 +73,7 @@
     box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
     height: 180px;
     line-height: 20px;
+    background-color: whitesmoke;
 }
 
 .educard .school {
@@ -187,6 +190,40 @@
     font-size: 65px;
     color: rgb(175, 109, 10);
 }
+
+// Skills
+
+.skill-container #area {
+    font-family: Oswald;
+    font-weight: 300;
+    font-size: 2em;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 50px;
+    color: $main-page-header;
+    width: 400px;
+    float:left;
+}
+
+.skill-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    width: 50%;
+}
+
+.skill-card {
+    padding: 5px 20px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+//    width: 200px;
+    text-align: center;
+    font-size:22px;
+//   background-color: $color-primary;
+    color: $color-main-bg;
+}
+
 
 // Text Formatting
 .main-page .title {

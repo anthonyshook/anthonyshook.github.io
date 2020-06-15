@@ -8,7 +8,7 @@ export default class Sidebar extends Component {
             <div>
                 <div>
                 <nav href="#navbar" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
-                    <div class="author-img" style={{ backgroundImage: 'url(images/about.jpg)' }} />
+                    <div class="author-img" style={{ backgroundImage: 'url(images/purpleportrait.jfif)' }} />
                 </div>
                 {/* Needs Styling */}
                 <div>
@@ -27,8 +27,9 @@ export default class Sidebar extends Component {
                 </nav>
                 <aside>
                     <ul id='icons'>
-                        <li><a href="https://www.linkedin.com/in/ajshook/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2"></i></a></li>
-                        <li><a href="https://github.com/anthonyshook" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
+                        <li><a href="mailto:anthony.shook@gmail.com"><i className="icon-mail"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/ajshook/" target="_blank" rel="noopener noreferrer"><i className="icon-social-linkedin-circular"></i></a></li>
+                        <li><a href="https://github.com/anthonyshook" target="_blank" rel="noopener noreferrer"><i className="icon-social-github-circular"></i></a></li>
                     </ul>
                 </aside>
                 <div>
