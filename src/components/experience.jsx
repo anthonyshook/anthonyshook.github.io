@@ -6,7 +6,7 @@ const employment = data.Employment;
 export default class Experience extends Component {
     render() {
         return (
-            <div class='bg2' id="exp-sup">
+            <div class='bg1' id="exp-sup">
                 <section id="experience" class="content-section" data-section="experience">
                     <div class='inner-container'>
                         <div class='title'>Experience</div>

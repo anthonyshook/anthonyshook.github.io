@@ -25,13 +25,13 @@
       max-height: 100vh;
     }
 
-    .bg1 {
-       // background-color: lightblue;
-    }
+    // .bg1 {
+    //    // background-color: lightblue;
+    // }
 
-    .bg2 {
-     //   background-color: lightcoral;
-    }
+    // .bg2 {
+    //  //   background-color: lightcoral;
+    // }
 
     .inner-container {
         margin: 50px;
@@ -192,7 +192,6 @@
 }
 
 // Skills
-
 .skill-container #area {
     font-family: Oswald;
     font-weight: 300;
@@ -225,7 +224,27 @@
 }
 
 
-// Text Formatting
+// About Section
+#abt-sup {
+    background-image: url('/images/pelican_fade2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    // opacity: .5;
+}
+
+#about {
+    .inner-container {
+        min-width: 50%;
+    }
+
+    h1 {
+        font-family: Noto Sans TC;
+        font-size:80px;
+    }
+}
+
+// General Text Formatting
 .main-page .title {
     text-transform: uppercase;
     font-weight: 400;
