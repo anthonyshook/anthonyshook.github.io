@@ -25,6 +25,14 @@
       max-height: 100vh;
     }
 
+    .content-section {
+        -ms-overflow-style: none;  /* Internet Explorer 10+ */
+        scrollbar-width: none;  /* Firefox */
+    }
+    .content-section::-webkit-scrollbar { 
+        display: none;  /* Safari and Chrome */
+    }
+
     // .bg1 {
     //    // background-color: lightblue;
     // }
@@ -226,11 +234,30 @@
 
 // About Section
 #abt-sup {
-    background-image: url('/images/pelican_fade2.png');
+    background-image: url('/images/pelican.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center right;
-    // opacity: .5;
+    
+    .gradient {
+        width:100%;
+        height: 100%;
+        background-image: linear-gradient(to left, $gradhalf, $grad2nd, $gradfull);
+        z-index: 1;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    h2 {
+        font-variant: small-caps;
+    }
+
+    #short-desc {
+        text-align: justify;
+        width: 50%;
+    }
 }
 
 #about {

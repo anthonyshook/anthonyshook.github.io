@@ -22,7 +22,7 @@ export default class Sidebar extends Component {
                         <li><a class='link' href="#experience" data-nav-section="experience">Experience</a></li>
                         <li><a class='link' href="#skills" data-nav-section="skills">Skills</a></li>
                         <li><a class='link' href="#education" data-nav-section="education">Education / CV</a></li>
-                        <li><a class='link' href="#projects" data-nav-section="projects">Projects</a></li>
+                        <li><a class='link' href="#projects" data-nav-section="projects">Projects / Work</a></li>
                     </ul>
                 </nav>
                 <aside>
@@ -36,7 +36,7 @@ export default class Sidebar extends Component {
                     {/* needs styling */}
                     <hr></hr>
                     <div id="sidefoot">
-                        Built with 
+                        Built in &nbsp;
                         <a href="https://reactjs.org" target = "_blank" rel='noopener noreferrer'>
                             <img id="aligned" src='images/react-logo-light.png' width="24" height="24" alt = 'React Logo'></img>
                         </a>
