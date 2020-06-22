@@ -1,14 +1,18 @@
 
-// Color theme
+// General Color theme
 $color-main-bg: #1a1a1a;
 $color-primary: #dba450;
 $color-content-bg: rgb(252, 252, 233);
 
+
 // Sidebar Colors
 $sidebarcolor: $color-main-bg;
-$sidebartext: lightgoldenrodyellow; //$color-content-bg;
+$sidebartext: $color-content-bg;
 $sidebarmain: $color-content-bg;
+$sidebar-footer: lightgrey;
 
+
+// Main Page Variables
 // Main Page Colors
 $main-page-header: #414141;
 $main-page-font:  #414141;
@@ -18,5 +22,13 @@ $gradhalf:  rgba(252, 252, 233, .5);
 $grad2nd:  rgba(252, 252, 233, .85);
 $gradfull:  rgba(252, 252, 233, 1);
 
-// Education Card Borders
+// Education Card Data
 $educard-border-radius: 15px;
+$educard-border-color: rgb(172, 172, 172);
+$educard-bg-color: whitesmoke;
+$school-bg-color:  rgb(100, 27, 134);
+
+// Sizing
+$sidebar-width: 250px;
+$sidebar-padding: 15px;
+$sidebar-margin: $sidebar-width + $sidebar-padding;

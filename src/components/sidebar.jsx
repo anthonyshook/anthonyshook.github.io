@@ -6,17 +6,20 @@ export default class Sidebar extends Component {
     render() {
         return (
             <div>
-                <div>
+                <div class="mainNav">
                 <nav href="#navbar" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
-                    <div class="author-img" style={{ backgroundImage: 'url(images/purpleportrait.jfif)' }} />
-                </div>
+                <div class="author-img" style={{ backgroundImage: 'url(images/purpleportrait.jfif)' }} /></div>
                 {/* Needs Styling */}
                 <div>
-                    <h2>Anthony Shook, PhD</h2>
-                    <h4>Data Scientist</h4>
-                    <h4>Chicago, IL</h4>
+                    <div id='selfName'>
+                        <h2>Anthony Shook, PhD</h2>
+                    </div>
+                    <div id='selfTitle'>
+                        <h4>Data Scientist</h4>
+                        <h4>Chicago, IL</h4>
+                    </div>
                 </div>
-                <nav role='navigation'>
+                <nav role='navigation' class='menu'>
                     <ul id='nav'>
                         <li><a class='link' href="#about" data-nav-section="about">About</a></li>
                         <li><a class='link' href="#experience" data-nav-section="experience">Experience</a></li>

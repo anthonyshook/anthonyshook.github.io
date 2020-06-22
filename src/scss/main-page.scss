@@ -13,7 +13,7 @@
     overflow-y: hidden;
     overflow-x: hidden;
     height: 100vh;
-    margin-left: 265px;
+    margin-left: $sidebar-margin;
     scroll-behavior: smooth;
     background-color: $color-content-bg;
 
@@ -32,14 +32,6 @@
     .content-section::-webkit-scrollbar { 
         display: none;  /* Safari and Chrome */
     }
-
-    // .bg1 {
-    //    // background-color: lightblue;
-    // }
-
-    // .bg2 {
-    //  //   background-color: lightcoral;
-    // }
 
     .inner-container {
         margin: 50px;
@@ -71,9 +63,9 @@
 }
 
 .educard .info {
-    border-top: 1px solid rgb(172, 172, 172);
-    border-left: 1px solid rgb(172, 172, 172);
-    border-right: 1px solid rgb(172, 172, 172);
+    border-top: 1px solid $educard-border-color;
+    border-left: 1px solid $educard-border-color;
+    border-right: 1px solid $educard-border-color;
     border-top-left-radius: $educard-border-radius;
     border-top-right-radius: $educard-border-radius;
     -webkit-box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
@@ -81,12 +73,12 @@
     box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
     height: 180px;
     line-height: 20px;
-    background-color: whitesmoke;
+    background-color: $educard-bg-color;
 }
 
 .educard .school {
-    border: 0px solid rgb(136, 136, 136);
-    background-color: rgb(100, 27, 134);
+    border: 0px solid $educard-border-color;
+    background-color: $school-bg-color;
     color: rgb(235, 235, 235);
     border-bottom-left-radius: $educard-border-radius;
     border-bottom-right-radius: $educard-border-radius;
@@ -97,7 +89,7 @@
 }
 
 .educard .logo {
-    float:left;
+    float: left;
     margin: 10px;
     text-align: center;
 }
@@ -224,10 +216,8 @@
     margin: 10px;
     border: 2px solid black;
     border-radius: 10px;
-//    width: 200px;
     text-align: center;
     font-size:22px;
-//   background-color: $color-primary;
     color: $color-main-bg;
 }
 
