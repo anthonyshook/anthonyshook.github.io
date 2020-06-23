@@ -30,18 +30,15 @@ export default class Sidebar extends Component {
                 </nav>
                 <aside>
                     <ul id='icons'>
-                        <li><a href="mailto:anthony.shook@gmail.com"><i className="icon-mail"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/ajshook/" target="_blank" rel="noopener noreferrer"><i className="icon-social-linkedin-circular"></i></a></li>
-                        <li><a href="https://github.com/anthonyshook" target="_blank" rel="noopener noreferrer"><i className="icon-social-github-circular"></i></a></li>
+                        <li><a href="mailto:anthony.shook@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/ajshook/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/anthonyshook" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
                     </ul>
                 </aside>
                 <div>
                     {/* needs styling */}
-                    <hr></hr>
                     <div id="sidefoot">
-                        Built in &nbsp;
-                        <a href="https://reactjs.org" target = "_blank" rel='noopener noreferrer'>
-                            <img id="aligned" src='images/react-logo-light.png' width="24" height="24" alt = 'React Logo'></img>
+                        Built in <a href="https://reactjs.org" target = "_blank" rel='noopener noreferrer'><i class="fab fa-react"></i>
                         </a>
                     </div>
                  </div>

@@ -1,32 +1,85 @@
 
-// General Color theme
-$color-main-bg: #1a1a1a;
-$color-primary: #dba450;
-$color-content-bg: rgb(252, 252, 233);
+// Five Main Colors
+// Black and Yellow
+$color-main-bg: #242423;
+$color-accent: #F5CB5C;
+$color-content-bg: rgb(232, 237, 223);
+$color-main-font: rgb(207, 219, 213);
+$color-secondary-font: rgb(207, 219, 213);
+$color-container-bg: rgb(51,53,51);
+
+// grey-blue orange grey 
+// $color-main-bg: #2D3142;
+// $color-accent: #ef8354;
+// $color-content-bg: rgb(79,93,117);
+// $color-main-font: rgb(207, 219, 213);
+// $color-secondary-font: rgb(207, 219, 213);
+// $color-container-bg: rgb(79,93,117);
+
+// // Desert shades
+// $color-main-bg: #472d30;
+// $color-accent: #e26d5c;
+// $color-content-bg: rgb(201,203,163);
+// $color-main-font: rgb(201,203,163);
+// $color-secondary-font: rgb(201,203,163);
+// $color-container-bg: rgb(114,61,70);
+
+// // Desert shades (Light) (sort of gross)
+// $color-main-bg: #e26d5c;
+// $color-accent: #472d30;
+// $color-content-bg: rgb(201,203,163);
+// $color-main-font: rgb(71,45,48);
+// $color-secondary-font: rgb(71,45,48);
+// $color-container-bg: rgb(255,225,168);
+
+// // Forest Green Gradient (Dark)
+// $color-main-bg: #2f3e46;
+// $color-accent: #84a98c;
+// $color-content-bg: rgb(132,169,140);
+// $color-main-font: rgb(202,210,197);
+// $color-secondary-font: rgb(202,210,197);
+// $color-container-bg: rgb(53,79,82);
+
+// // Forest Green Gradient (Light)
+// $color-main-bg: #52796f;
+// $color-accent: #2f3e46;
+// $color-content-bg: rgb(132,169,140);
+// $color-main-font: rgb(47,62,70);
+// $color-secondary-font: rgb(202,210,197);
+// $color-container-bg: rgb(202,210,197);
+
+// blue and orange
+// $color-main-bg: #293241;
+// $color-accent: #ee6c4d;
+// $color-content-bg: rgb(224,251,252);
+// $color-main-font: rgb(224,251,252);
+// $color-secondary-font: rgb(224,251,252);
+// $color-container-bg: rgb(61,90,128);
 
 
 // Sidebar Colors
 $sidebarcolor: $color-main-bg;
-$sidebartext: $color-content-bg;
-$sidebarmain: $color-content-bg;
-$sidebar-footer: lightgrey;
+$sidebartext: $color-secondary-font;
+$sidebarmain: $color-secondary-font;
+$sidebar-footer: $color-secondary-font;
 
 
 // Main Page Variables
 // Main Page Colors
-$main-page-header: #414141;
-$main-page-font:  #414141;
+$main-page-header: $color-main-font;
+$main-page-font: $color-main-font;
 
 // Gradient Colors
-$gradhalf:  rgba(252, 252, 233, .5);
-$grad2nd:  rgba(252, 252, 233, .85);
-$gradfull:  rgba(252, 252, 233, 1);
+$gradhalf:  rgba($color-container-bg, .5);
+$grad2nd:  rgba($color-container-bg, .85);
+$gradfull:  rgba($color-container-bg, 1);
 
 // Education Card Data
 $educard-border-radius: 15px;
 $educard-border-color: rgb(172, 172, 172);
 $educard-bg-color: whitesmoke;
 $school-bg-color:  rgb(100, 27, 134);
+$educard-font: rgb(51,53,51);
 
 // Sizing
 $sidebar-width: 250px;

@@ -15,7 +15,7 @@
     height: 100vh;
     margin-left: $sidebar-margin;
     scroll-behavior: smooth;
-    background-color: $color-content-bg;
+    background-color: $color-container-bg;
 
   
     .content-section {
@@ -24,7 +24,12 @@
       overflow-y: auto;
       max-height: 100vh;
       min-height: 100vh;
+      color: $color-main-font;
     }
+
+    .content-section a {
+        color: $color-main-font;
+      }
 
     .content-section {
         -ms-overflow-style: none;  /* Internet Explorer 10+ */
@@ -61,6 +66,7 @@
     margin-bottom: 40px;
     padding:0;
     float:left; 
+    color: $educard-font;
 }
 
 .educard .info {
@@ -103,9 +109,9 @@
 }
 
 .educard .year {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
-    color: $main-page-font;
+    color: $educard-font;
 }
 
 .educard h4 {
@@ -189,7 +195,7 @@
 
 .jobcards:hover i {
     font-size: 65px;
-    color: rgb(175, 109, 10);
+    color: $color-accent;
 }
 
 // Skills
@@ -219,7 +225,7 @@
     border-radius: 10px;
     text-align: center;
     font-size:22px;
-    color: $color-main-bg;
+    color: $color-main-font;
 }
 
 
@@ -274,7 +280,7 @@
 .title-divider {
     width: 20%;
     height: 2px;
-    background-color: $color-primary;
+    background-color: $color-accent;
     margin: 20px 0 30px 0;
 }
 

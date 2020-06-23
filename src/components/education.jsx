@@ -19,7 +19,7 @@ export default class Education extends Component {
                                 <div class='info'>
                                     <div class='logo'>
                                         <img src = {d.logopath} alt = 'University Logo'></img>
-                                        <div class='year'>{d.year}</div>
+                                        <div class='year'>{d.gradYear}</div>
                                     </div>
                                     <h4>{d.degree}</h4>
                                     <h3>{d.dept}</h3>

@@ -48,7 +48,7 @@ ul#nav a:after {
   width: 0;
   left: 0;
   position: absolute;
-  background: $sidebartext;
+  background: $color-accent;
   transition: width .6s ease;
   -webkit-transition: width .6s ease;
 }
@@ -100,7 +100,7 @@ ul#icons a {
 }
 
 ul#icons i {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 200;
 }
 
@@ -127,6 +127,10 @@ img#aligned {
 }
 
 #sidefoot {
+  color: $sidebar-footer;
+}
+
+#sidefoot i, a {
   color: $sidebar-footer;
 }
 
@@ -166,17 +170,17 @@ img#aligned {
   }
   .sidebarMenuInner li{
       list-style: none;
-      color: #fff;
+      color: $sidebartext;
       padding: 20px;
       cursor: pointer;
   }
   .sidebarMenuInner li span{
       display: block;
       font-size: 14px;
-      color: rgba(255, 255, 255, 0.50);
+      color: $sidebartext;
   }
   .sidebarMenuInner li a{
-      color: $color-content-bg;
+      color: $sidebartext;
       text-transform: uppercase;
       letter-spacing: .25em;
       cursor: pointer;
@@ -210,7 +214,7 @@ img#aligned {
       position: absolute;
       height: 3px;
       width: 100%;
-      background-color: $color-content-bg;
+      background-color: $sidebartext;
   }
   .horizontal {
       transition: all 0.3s;
