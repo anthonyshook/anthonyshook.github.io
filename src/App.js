@@ -13,15 +13,16 @@ import Skills from './components/skills';
 function App() {
   return (
     <div id='full-page'>
+      <div class='nav-panel'>
+        <Sidebar></Sidebar>
+      </div>
       <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu"></input>
       <label for="openSidebarMenu" class="sidebarIconToggle">
         <div class="spinner diagonal part-1"></div>
         <div class="spinner horizontal"></div>
         <div class="spinner diagonal part-2"></div>
       </label>
-      <div class='nav-panel'>
-        <Sidebar></Sidebar>
-      </div>
+      <div class="mobileHeader"><div id='MyName'>Anthony Shook, Ph.D</div></div>
       <div class="sidebarMenu">
           <ul class='sidebarMenuInner'>
               <li><a class='link' href="#about" data-nav-section="about">About</a></li>
