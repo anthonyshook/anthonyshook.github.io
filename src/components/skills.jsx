@@ -13,11 +13,11 @@ export default class Skills extends Component {
                         <div class='title-divider'></div>
                         <div class='skill-container'>
                         {techSkills.map(ts => (
-                            <div>
-                            <div id='area'>{ ts.Area } </div>
+                            <div key = {ts.Area}>
+                            <div id='area' >{ ts.Area } </div>
                                 <div class='skill-card-container'>
                                     {ts.SkillSet.map(ss => (
-                                        <div class = 'skill-card'>
+                                        <div class = 'skill-card' key = {ss.Name}>
                                             {ss.Name}
                                         </div>
                                     ))} 

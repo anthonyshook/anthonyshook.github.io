@@ -15,7 +15,7 @@ export default class Education extends Component {
                         <div class='title-divider'></div>
                         <div id="education-container">
                             {eduData.map(d => (
-                            <div class='educard'>
+                            <div class='educard' key = {d.school}>
                                 <div class='info'>
                                     <div class='logo'>
                                         <img src = {d.logopath} alt = 'University Logo'></img>
@@ -38,13 +38,14 @@ export default class Education extends Component {
                     <h3>For a complete CV, <a href='docs/A_Shook_CV.pdf'>click here!</a></h3>
                     <h3>Peer Reviewed Articles:</h3>
                     {articles.map(s => (
-                        <ul><li>{s.authors} ({s.year}). {s.title} <i>{ s.journal }. </i>
+                        <ul key = {s.title}>
+                            <li>{s.authors} ({s.year}). {s.title} <i>{ s.journal }. </i>
                             <a href={ "https://doi.org/" + s.doi } target= "_blank" rel="noopener noreferrer">{s.doi}</a>
                         </li></ul>)
                     )}
                     <h3>Select Conference Presentations:</h3>
                     {confData.map(c => (
-                        <ul>
+                        <ul key = {c.title}>
                             <li>
                                 {c.title} ({c.when}). {c.location}. <i>{c.authors}</i>
                             </li>

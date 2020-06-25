@@ -13,7 +13,7 @@ export default class Experience extends Component {
                         <div class='title-divider'></div>
                         <div id="experience-container">
                             {employment.map(job => (
-                                <div class='jobcards'>
+                                <div class='jobcards' key = {job.employer}>
                                     <div class='jobicon'><i className = {job.icon}></i></div>
                                     <div class='year'>
                                         <h5>{job.employer}</h5>
