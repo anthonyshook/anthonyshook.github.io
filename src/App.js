@@ -10,8 +10,8 @@ import Projects from './components/projects';
 import Skills from './components/skills';
 import * as themes from './themes';
 
-const lightTheme = themes.red;
-const darkTheme = themes.white;
+const lightTheme = themes.light_theme;
+const darkTheme = themes.dark_theme;
 
 const applyTheme = (nextTheme, cb) => {
   const theme = nextTheme === "light" ? lightTheme : darkTheme;

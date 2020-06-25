@@ -1,21 +1,18 @@
 
 
-// Five Main Colors
-// Black and Yellow
-$color-main-bg: #242423;
-$color-accent: #F5CB5C;
-$color-content-bg: rgb(232, 237, 223);
-$color-main-font: rgb(207, 219, 213);
-$color-secondary-font: rgb(207, 219, 213);
-$color-container-bg: rgb(51,53,51);
+// Education Card Data
+$educard-border-radius: 15px;
+$educard-border-color: rgb(172, 172, 172);
+$educard-bg-color: whitesmoke;
+$school-bg-color:  rgb(100, 27, 134);
+$educard-font: rgb(51,53,51);
 
-// // grey-blue orange grey 
-// $color-main-bg: #2D3142;
-// $color-accent: #ef8354;
-// $color-content-bg: rgb(79,93,117);
-// $color-main-font: rgb(207, 219, 213);
-// $color-secondary-font: rgb(207, 219, 213);
-// $color-container-bg: rgb(79,93,117);
+// Sizing
+$sidebar-width: 250px;
+$sidebar-padding: 15px;
+$sidebar-margin: $sidebar-width + $sidebar-padding;
+
+
 
 // // Desert shades
 // $color-main-bg: #472d30;
@@ -27,8 +24,8 @@ $color-container-bg: rgb(51,53,51);
 
 
 // // Forest Green Gradient (Dark)
-// $color-main-bg: #2f3e46;
-// $color-accent: #84a98c;
+// $color-main-bg: rgb(47, 62, 70);
+// $color-accent: rgb(132, 169, 140);
 // $color-content-bg: rgb(132,169,140);
 // $color-main-font: rgb(202,210,197);
 // $color-secondary-font: rgb(202,210,197);
@@ -49,33 +46,3 @@ $color-container-bg: rgb(51,53,51);
 // $color-main-font: rgb(224,251,252);
 // $color-secondary-font: rgb(224,251,252);
 // $color-container-bg: rgb(61,90,128);
-
-
-// Sidebar Colors
-$sidebarcolor: $color-main-bg;
-$sidebartext: $color-secondary-font;
-$sidebarmain: $color-secondary-font;
-$sidebar-footer: $color-secondary-font;
-
-
-// Main Page Variables
-// Main Page Colors
-$main-page-header: $color-main-font;
-$main-page-font: $color-main-font;
-
-// Gradient Colors
-$gradhalf:  rgba($color-container-bg, .5);
-$grad2nd:  rgba($color-container-bg, .85);
-$gradfull:  rgba($color-container-bg, 1);
-
-// Education Card Data
-$educard-border-radius: 15px;
-$educard-border-color: rgb(172, 172, 172);
-$educard-bg-color: whitesmoke;
-$school-bg-color:  rgb(100, 27, 134);
-$educard-font: rgb(51,53,51);
-
-// Sizing
-$sidebar-width: 250px;
-$sidebar-padding: 15px;
-$sidebar-margin: $sidebar-width + $sidebar-padding;

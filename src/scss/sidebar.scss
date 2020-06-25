@@ -19,7 +19,7 @@
     padding: 40px 0px;
     width: $sidebar-width;
     padding-left: $sidebar-padding;
-    background-color: $sidebarcolor ;
+    background-color: var(--sidebar-bg); 
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -27,7 +27,7 @@
   }
   
 ul#nav a {
-  color: $sidebartext;
+  color: var(--sidebar-text);
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: .25em;
@@ -48,7 +48,7 @@ ul#nav a:after {
   width: 0;
   left: 0;
   position: absolute;
-  background: $color-accent;
+  background: var(--accent-color);
   transition: width .6s ease;
   -webkit-transition: width .6s ease;
 }
@@ -93,7 +93,7 @@ ul#icons li {
 
 ul#icons a { 
   display:inline-block;
-  color: $sidebartext;
+  color: var(--sidebar-text);
   text-align: center;
   padding: 10px;
   text-decoration: none;
@@ -110,7 +110,7 @@ img#aligned {
 
 .nav-panel  h2 {
   margin: 1em 0 0.5em 0;
-  color: $sidebarmain;
+  color: var(--sidebar-strong);
   font-weight: normal;
   font-size: 20px;
   line-height: 40px;
@@ -119,7 +119,7 @@ img#aligned {
 
 .nav-panel h4 {
   margin: 1em 0 0.5em 0;
-	color: $sidebarmain;
+	color: var(--sidebar-strong);
 	font-size: 16px;
 	line-height: 10px;
 	font-weight: normal;
@@ -127,11 +127,11 @@ img#aligned {
 }
 
 #sidefoot {
-  color: $sidebar-footer;
+  color: var(--sidebar-footer);
 }
 
 #sidefoot i, a {
-  color: $sidebar-footer;
+  color: var(--sidebar-footer);
 }
 
 // Made the dropdown invisible by default
@@ -161,26 +161,26 @@ img#aligned {
     margin-top: 60px;
     transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
-    background-color: $color-main-bg;
+    background-color: var(--sidebar-bg);
   }
   .sidebarMenuInner{
       margin:0;
       padding:0;
-      background-color: $color-main-bg;
+      background-color: var(--sidebar-bg);
   }
   .sidebarMenuInner li{
       list-style: none;
-      color: $sidebartext;
+      color: var(--sidebar-text);
       padding: 20px;
       cursor: pointer;
   }
   .sidebarMenuInner li span{
       display: block;
       font-size: 14px;
-      color: $sidebartext;
+      color: var(--sidebar-text);
   }
   .sidebarMenuInner li a{
-      color: $sidebartext;
+      color: var(--sidebar-text);
       text-transform: uppercase;
       letter-spacing: .25em;
       cursor: pointer;
@@ -214,7 +214,7 @@ img#aligned {
       position: absolute;
       height: 3px;
       width: 100%;
-      background-color: $sidebartext;
+      background-color: var(--sidebar-text);
   }
   .horizontal {
       transition: all 0.3s;
@@ -263,7 +263,7 @@ img#aligned {
     margin: 10 auto;
     width: 100%;
     max-width: 100%;
-    background-color: $color-main-bg;
+    background-color: var(--sidebar-bg);
     position: fixed;
     height: 60px!important;
     overflow: hidden;
@@ -273,7 +273,7 @@ img#aligned {
 
   .mobileHeader #MyName {
     margin: 1em 0 0.5em 0;
-    color: $sidebarmain;
+    color: var(--sidebar-strong);
     font-weight: normal;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
