@@ -8,13 +8,35 @@ import Education from './components/education';
 import About from './components/about';
 import Projects from './components/projects';
 import Skills from './components/skills';
+import * as themes from './themes';
 
+const lightTheme = themes.red;
+const darkTheme = themes.white;
 
-function App() {
-  return (
+const applyTheme = (nextTheme, cb) => {
+  const theme = nextTheme === "light" ? lightTheme : darkTheme;
+  Object.keys(theme).forEach(key => {
+    const value = theme[key];
+    document.documentElement.style.setProperty(key, value);
+  });
+  cb();
+};
+
+const App = () => {
+  const [currentTheme, setTheme] = React.useState("light");
+
+  const onClick = () => {
+    const nextTheme = currentTheme === "light" ? "dark" : "light";
+    setTheme(nextTheme);
+    applyTheme(nextTheme, () => setTheme(nextTheme));
+  };
+
+//function App() {
+    return (
     <div id='full-page'>
       <div class='nav-panel'>
         <Sidebar></Sidebar>
+        <button onClick={onClick}>Toggle theme</button>
       </div>
       <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu"></input>
       <label for="openSidebarMenu" class="sidebarIconToggle">

@@ -6,6 +6,10 @@
 // Variables
 @import "variables";
 
+:root {
+    --testingcolor: rgb(207, 219, 213);
+}
+
 //* Setting up the Content Sections
 .main-page {
     display: flex;
@@ -16,7 +20,6 @@
     margin-left: $sidebar-margin;
     scroll-behavior: smooth;
     background-color: $color-container-bg;
-
   
     .content-section {
       flex: 0 0 auto;
@@ -24,7 +27,7 @@
       overflow-y: auto;
       max-height: 100vh;
       min-height: 100vh;
-      color: $color-main-font;
+      color: var(--testingcolor);
     }
 
     .content-section a {
