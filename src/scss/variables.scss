@@ -1,10 +1,37 @@
+// Imports
+@font-face {
+  font-family: 'icomoon';
+  src: url("/fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("/fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("/fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("/fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("/fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; };
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather-Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
+// -------- Fonts ----------
+// General Header / Body
+$header-font: 'Quicksand', sans-serif;
+$body-font: 'Open Sans', sans-serif;
+
+// Experience Fonts
+$job-exp-font: $body-font;
+
+// Sidebar Fonts
+$sidebar-font: $header-font;
+
+// ------- Misc --------
 // Education Card Data
 $educard-border-radius: 15px;
 $educard-border-color: rgb(172, 172, 172);
 $educard-bg-color: whitesmoke;
-$school-bg-color:  rgb(100, 27, 134);
+$school-bg-color:  #1e0233;
 $educard-font: rgb(51,53,51);
 
 // Sizing

@@ -23,7 +23,7 @@ export default class About extends Component {
                                     <li>linkedIn: <a href="https://www.linkedin.com/in/ajshook/">https://www.linkedin.com/in/ajshook/</a></li>
                                     <li>github: <a href="https://github.com/anthonyshook/">https://github.com/anthonyshook/</a></li></ul>
                             </div>
-                            <p>This site was built in React using JSX and SCSS.</p> 
+                            <p>This site was built in React using JSX and CSS/SASS.</p> 
                             <p>It is also (and always will be) a work in progress :)</p>
                         </div>
                     </section>

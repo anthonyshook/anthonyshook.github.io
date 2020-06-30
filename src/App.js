@@ -14,7 +14,7 @@ const lightTheme = themes.light_theme;
 const darkTheme = themes.dark_theme;
 
 const applyTheme = (nextTheme, cb) => {
-  const theme = nextTheme === "light" ? lightTheme : darkTheme;
+  const theme = nextTheme === "Light" ? lightTheme : darkTheme;
   Object.keys(theme).forEach(key => {
     const value = theme[key];
     document.documentElement.style.setProperty(key, value);
@@ -23,10 +23,10 @@ const applyTheme = (nextTheme, cb) => {
 };
 
 const App = () => {
-  const [currentTheme, setTheme] = React.useState("light");
+  const [currentTheme, setTheme] = React.useState("Light");
 
   const onClick = () => {
-    const nextTheme = currentTheme === "light" ? "dark" : "light";
+    const nextTheme = currentTheme === "Light" ? "Dark" : "Light";
     setTheme(nextTheme);
     applyTheme(nextTheme, () => setTheme(nextTheme));
   };
@@ -36,7 +36,9 @@ const App = () => {
     <div id='full-page'>
       <div class='nav-panel'>
         <Sidebar></Sidebar>
-        <button onClick={onClick}>Toggle theme</button>
+        <p id={currentTheme}>{currentTheme}
+          <button class={currentTheme} onClick={onClick}><i class="fas fa-circle"></i></button>
+        </p>
       </div>
       <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu"></input>
       <label for="openSidebarMenu" class="sidebarIconToggle">
@@ -53,6 +55,9 @@ const App = () => {
               <li><a class='link' href="#education" data-nav-section="education">Education / CV</a></li>
               <li><a class='link' href="#projects" data-nav-section="projects">Projects / Work</a></li>
           </ul>
+          <p id={currentTheme}>{currentTheme}
+            <button class={currentTheme} onClick={onClick}><i class="fas fa-dot-circle"></i></button>
+          </p>
       </div>
       <div class="main-page">
         <About></About>   

@@ -4,14 +4,6 @@
 // compiler from generating a CSS file from it.
 @import "variables";
 
-@font-face {
-  font-family: 'icomoon';
-  src: url("/fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("/fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("/fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("/fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("/fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal; };
-
-
 
 /* The side navigation menu */
 .nav-panel {
@@ -34,6 +26,7 @@ ul#nav a {
   display: inline-block;
   padding: 10px;
   position: relative;
+  font-family: $sidebar-font;//'Open Sans';
 }
 ul#nav a:hover:after {
   width: 100%;
@@ -112,18 +105,18 @@ img#aligned {
   margin: 1em 0 0.5em 0;
   color: var(--sidebar-strong);
   font-weight: normal;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: $sidebar-font;
 }
 
 .nav-panel h4 {
   margin: 1em 0 0.5em 0;
 	color: var(--sidebar-strong);
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 10px;
 	font-weight: normal;
-	font-family: 'Roboto', sans-serif;
+	font-family: $sidebar-font;
 }
 
 #sidefoot {
@@ -143,6 +136,61 @@ img#aligned {
   display:none;
 }
 
+// Toggle for Light/Dark mode
+button {
+  border-radius: 10px;
+  padding: 4px;
+  border: 0px;
+  color: var(--sidebar-text);
+  background-color: var(--sidebar-bg);
+  // background: linear-gradient(180deg, 
+  //   var(--sidebar-bg) 33%, var(--accent-color) 33%, 
+  //   var(--accent-color) 66%,  var(--sidebar-bg) 66%);
+  box-sizing: border-box;
+  font-family: $sidebar-font;
+  margin: 10px;
+}
+
+button:focus {
+  outline: none; 
+}
+
+button.Light {
+  //border-left: 30px solid #eee;
+  // transition: border-left .2s;
+  // transition: all 2s;
+  background-color: var(--accent-color);
+  color: #DDD;
+
+  i {
+    // float: left;
+    font-size: 24px;
+    margin-right: 20px;
+  }
+}
+
+button.Dark {
+  //border-right: 30px solid #eee; //var(--accent-color);
+  // transition: border-right .2s;
+  // transition: all 2s;
+  background-color: var(--accent-color);
+  color: #333;
+
+  i {
+    // float: right;
+    font-size: 24px;
+    margin-left: 20px;
+  }
+}
+
+// Switch Toggle
+p#Light {
+  color: #333
+}
+p#Dark {
+  color: #EEE;
+}
+
 /* On screens that are less than 700px wide, make the nav-panel into a topbar */
 /* display the bar vertically, instead of horizontally */
 @media screen and (max-width: 700px) {
@@ -151,6 +199,15 @@ img#aligned {
   }
 
   div.main-page {margin-left: 0;}
+
+  button {
+    margin: 20px;
+  }
+
+  p#Light,
+  p#Dark {
+    margin-left: 20px;
+  }
 
   // menu
   .sidebarMenu {
@@ -214,7 +271,7 @@ img#aligned {
       position: absolute;
       height: 3px;
       width: 100%;
-      background-color: var(--sidebar-text);
+      background-color: var(--accent-color);
   }
   .horizontal {
       transition: all 0.3s;
@@ -276,7 +333,7 @@ img#aligned {
     color: var(--sidebar-strong);
     font-weight: normal;
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+    font-family: $sidebar-font;
     margin: 22px;
   }
 

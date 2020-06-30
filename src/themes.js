@@ -2,39 +2,39 @@
 
 // Themes are defined by 
 const basic = {
-  "--primary-col": "36, 36, 35",
+  "--primary-col": "51,53,51",
   "--accent-col": "245, 203, 92",
   "--content-col": "232, 237, 223",
   "--primary-font": "207,219,213",
   "--secondary-font": "207, 219, 213", 
-  "--container-col": "51, 53, 51"
+  "--container-col": "36,36,35"
 };
 
-const blue_orange = {
-  "--primary-col": "45, 49, 66",
-  "--accent-col": "239, 131, 84",
-  "--content-col": "79, 93, 117",
-  "--primary-font": "207, 219, 213",
-  "--secondary-font": "207, 219, 213", 
-  "--container-col": "79, 93, 117"
- };
+// const blue_orange = {
+//   "--primary-col": "45, 49, 66",
+//   "--accent-col": "239, 131, 84",
+//   "--content-col": "79, 93, 117",
+//   "--primary-font": "207, 219, 213",
+//   "--secondary-font": "207, 219, 213", 
+//   "--container-col": "79, 93, 117"
+//  };
 
- const green_mono = {
-  "--primary-col": "47, 62, 70",
-  "--accent-col": "132, 169, 140",
+ const purple_light = {
+  "--primary-col": "234,235,230",
+  "--accent-col": "121, 50, 88",
   "--content-col": "132, 169, 140",
-  "--primary-font": "202,210,197",
-  "--secondary-font": "202,210,197", 
-  "--container-col": "53,79,82"
+  "--primary-font": "54,48,43",
+  "--secondary-font": "5,5,5", 
+  "--container-col": "234,235,230"
  };
 
 // Intermediate steps allow us to define multiple values above,
 // and swap them in an out to toggle comparisons
 // Intermediate Step for the Light Theme
-const light_inter = basic;
+const light_inter = purple_light;
 
 // Intermediate Step for the Dark Theme
-const dark_inter = blue_orange;
+const dark_inter = basic;
 
 // Function with standard config
 function create_theme(cfg) {
@@ -46,7 +46,7 @@ function create_theme(cfg) {
   "--sidebar-footer": "rgb(".concat(cfg["--secondary-font"],")"),
 
   // Main Page 
-  "--main-head-text": "rgb(".concat(cfg["--primary-font"],")"),
+  "--main-head-text": "rgb(".concat(cfg["--secondary-font"],")"),
   "--main-text": "rgb(".concat(cfg["--primary-font"],")"),
   "--main-bg": "rgb(".concat(cfg["--container-col"],")"),
 
