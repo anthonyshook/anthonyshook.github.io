@@ -37,7 +37,7 @@ const App = () => {
       <div class='nav-panel'>
         <Sidebar></Sidebar>
         <p id={currentTheme}>{currentTheme}
-          <button class={currentTheme} onClick={onClick}><i class="fas fa-circle"></i></button>
+          <button class={currentTheme} onClick={onClick}><i class="fas fa-dot-circle"></i></button>
         </p>
       </div>
       <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu"></input>
