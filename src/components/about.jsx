@@ -12,7 +12,7 @@ export default class About extends Component {
                             <h1>Hello, I'm Anthony!</h1>
                             <h2>Data Scientist, Former Academic, Established Cat Person.</h2>
                             <div id="short-desc">
-                                <p>I've always been a scientist of some form or another. Originally, I trained to be a research scientist, with a focus on how humans understand and process language. I started programming almost out of necessity, in order to build, run, and analyze the experiments I was desiging. Turns out I really enjoyed it, so I left the academic path, and have been working as a Data Scientist since 2016.</p>
+                                <p>I've always been a scientist of some form or another. Originally, I trained to be a research scientist, with a focus on how humans understand and process language. I started programming almost out of necessity, in order to build, run, and analyze research experiments. Turns out I really enjoyed it, so after I got my degree, I left academia and have been working as a Data Scientist since 2016.</p>
                                 <p>I'm currently available for consulting work on data analytics / data science projects, or just to share music recommendations and funny animal memes.</p>
                             </div>
                             <div id="contact-abt">
