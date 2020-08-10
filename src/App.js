@@ -23,7 +23,7 @@ const applyTheme = (nextTheme, cb) => {
 };
 
 const App = () => {
-  const [currentTheme, setTheme] = React.useState("Light");
+  const [currentTheme, setTheme] = React.useState("Dark");
 
   const onClick = () => {
     const nextTheme = currentTheme === "Light" ? "Dark" : "Light";
