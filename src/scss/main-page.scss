@@ -292,9 +292,10 @@
 
 .project-card {
     margin: 20px;
-    width: 30%;
+    width: 80%;
     min-width: 300px;
-    border: 1px solid var(--accent-color);
+    border-left: 1px solid var(--accent-color);
+    background-color: var(--sidebar-bg);
 
     .project-title {
         font-size: 24px;
@@ -307,13 +308,14 @@
         }
     }
 
-    .project-skills {
-        font-size: 13px;
-        margin: 5px 0 5px 15px;
-        display: inline-grid;
-        grid-template-columns: auto auto auto;
-        grid-template-rows: 40px;
+    .project-skill-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
+    .project-skills {
+        font-size: 14px;
+        margin: 5px 0 5px 15px;
         p {
             background-color: var(--accent-color);
             border: 2px solid var(--accent-color);
@@ -326,7 +328,27 @@
 
     .project-desc {
         margin: 15px;
+        min-height: 100px;
         text-align:justify;
+        font-size: 14px;
+    }
+
+    .project-link {
+        height:40px;
+        text-align: right;
+        margin-top: 10px;
+        margin-right: 10px;
+
+        a {
+            padding:5px;
+            // border: 2px solid var(--accent-color);
+        }
+    }
+
+    .project-footer {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 }
 

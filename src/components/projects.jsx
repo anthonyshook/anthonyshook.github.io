@@ -15,11 +15,18 @@ export default class Projects extends Component {
                             {projects.map(project => (
                                 <div class='project-card'>
                                     <div class="project-title">{project.Name}</div>
-                                    <div class="project-desc">{project.Desc}</div>
-                                    {project.Skills.map(skill => (
-                                        <div class="project-skills"><p>{skill}</p></div>
-                                    ))}
-                                    <div class="project-link"><a href={project.Link}>View Project</a></div>
+                                    <div class="project-desc" dangerouslySetInnerHTML={{__html: project.LongDesc}}></div>
+                                    <div class="project-footer">
+                                        <div class="project-skill-container">
+                                        {project.Skills.map(skill => (
+                                            <div class="project-skills"><p>{skill}</p></div>
+                                        ))}
+                                        </div>
+                                        {project.Link 
+                                            ? <div class="project-link"><a href={project.Link}>View Project</a></div>
+                                            : <div />
+                                        }
+                                    </div>
                                 </div>
                             ))}
                         </div>
