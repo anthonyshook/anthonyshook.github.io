@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Introduction
 
-This repo contains the react-app used to generate my personal [https://anthonyshook.com](https://anthonyshook.com). 
+This repo contains the react-app used to generate my personal site [https://anthonyshook.com](https://anthonyshook.com). 
 The master branch contains the deployed code.  
 
 It's a static site, so why use react at all?  I used this primarily as a means of learning a bit 
