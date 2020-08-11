@@ -19,9 +19,9 @@ export default class About extends Component {
                             <div class='title'>Contact</div>
                             <div class='title-divider'></div>
                                 <ul>
-                                    <li>email: <a href="mailto:anthony.shook@gmail.com">anthony.shook@gmail.com</a></li>
-                                    <li>linkedIn: <a href="https://www.linkedin.com/in/ajshook/">https://www.linkedin.com/in/ajshook/</a></li>
-                                    <li>github: <a href="https://github.com/anthonyshook/">https://github.com/anthonyshook/</a></li></ul>
+                                    <li>email: <a href="mailto:anthony.shook@gmail.com" target = "_blank" rel='noopener noreferrer'>anthony.shook@gmail.com</a></li>
+                                    <li>linkedIn: <a href="https://www.linkedin.com/in/ajshook/" target = "_blank" rel='noopener noreferrer'>https://www.linkedin.com/in/ajshook/</a></li>
+                                    <li>github: <a href="https://github.com/anthonyshook/" target = "_blank" rel='noopener noreferrer'>https://github.com/anthonyshook/</a></li></ul>
                             </div>
                             <p>This site was built in React using JSX and CSS/SASS.</p> 
                             <p>It is also (and always will be) a work in progress :)</p>
