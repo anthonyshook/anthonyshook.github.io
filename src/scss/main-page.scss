@@ -282,6 +282,54 @@
     }
 }
 
+// Project Cards
+#projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    // justify-content: space-evenly;
+}
+
+.project-card {
+    margin: 20px;
+    width: 30%;
+    min-width: 300px;
+    border: 1px solid var(--accent-color);
+
+    .project-title {
+        font-size: 24px;
+        margin-left:10px;
+        margin-top: 10px;
+        font-weight: 600;
+        text-transform: uppercase;
+        i {
+            font-size: 18px;
+        }
+    }
+
+    .project-skills {
+        font-size: 13px;
+        margin: 5px 0 5px 15px;
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 40px;
+
+        p {
+            background-color: var(--accent-color);
+            border: 2px solid var(--accent-color);
+            border-radius: 25px;
+            color: var(--main-bg);
+            margin: auto;
+            padding: 2px 5px;
+        }
+    }
+
+    .project-desc {
+        margin: 15px;
+        text-align:justify;
+    }
+}
+
 // General Text Formatting
 .main-page .title {
     // text-transform: uppercase;

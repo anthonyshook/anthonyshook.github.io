@@ -265,5 +265,28 @@
           }
         ]
       }        
+    ],
+    "Projects": [
+      {
+        "Name": "Daily-Fantasy Lineup Optimizer",
+        "Skills": ["R", "Integer Programming", "Linear Optimization"],
+        "Desc": "R Package to generate optimal lineups for Daily-Fantasy Sports.",
+        "LongDesc": "An R Package that generates optimal lineups for Daily-Fantasy Sports (DFS).  DFS, in the simplest form, is a knapsack problem -- you have a limited budget, and estimated values for every player, and your job is to figure out which set of players gives you the highest predicted point outcome within your budget. The R package allows a person to go to one of several DFS sites, download player lists, customize the model in a number of ways, generate multiple lineups, and then export them in a format that is easily uploaded to the DFS site they chose. I built this tool primarily to get some experience solving Linear Optimization problems, and to get practice thinking through the design of a public interface.",
+        "Link": "https://github.com/anthonyshook/dfsOptimizer"
+      },
+      {
+        "Name": "Portfolio Website",
+        "Skills": ["JSX", "SCSS/CSS", "React"],
+        "Desc": "Website using JSX and SCSS/CSS, and bootstrapped with React.",
+        "LongDesc": "The very website you're looking at right now! The site was built from scratch using JSX and SCSS/CSS, and was bootstrapped with React.  I wanted to build a website for myself in order to become more familiar with JS and SCSS, but to experiment with React as a web/app framework.",
+        "Link": "https://github.com/anthonyshook/anthonyshook.github.io/tree/develop"
+      },
+      {
+        "Name": "Portfolio Website",
+        "Skills": ["JSX", "SCSS/CSS", "React"],
+        "Desc": "Website using JSX and SCSS/CSS, and bootstrapped with React.",
+        "LongDesc": "The very website you're looking at right now! The site was built from scratch using JSX and SCSS/CSS, and was bootstrapped with React.  I wanted to build a website for myself in order to become more familiar with JS and SCSS, but to experiment with React as a web/app framework.",
+        "Link": "https://github.com/anthonyshook/anthonyshook.github.io/tree/develop"
+      }
     ]   
     }
