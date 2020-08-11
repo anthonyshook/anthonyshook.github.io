@@ -12,6 +12,7 @@
     --accent-color: rgb(245, 203, 92);
     --gradient: 36, 36, 35;
     --main-head-text: rgb(207,219,213);
+    --project-card: rgb(51, 53, 51);
 }
 
 //* Setting up the Content Sections
@@ -295,7 +296,7 @@
     width: 80%;
     min-width: 300px;
     border-left: 1px solid var(--accent-color);
-    background-color: var(--sidebar-bg);
+    background-color: var(--project-card);
 
     .project-title {
         font-size: 24px;
@@ -327,7 +328,7 @@
     }
 
     .project-desc {
-        margin: 15px;
+        margin: 18px;
         min-height: 100px;
         text-align:justify;
         font-size: 14px;

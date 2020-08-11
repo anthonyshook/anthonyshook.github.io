@@ -6,7 +6,8 @@ const basic = {
   "--content-col": "232, 237, 223",
   "--primary-font": "207,219,213",
   "--secondary-font": "207, 219, 213", 
-  "--container-col": "36,36,35"
+  "--container-col": "36,36,35",
+  "--project-card": "51,53,51"
 };
 
 const purple_light = {
@@ -15,7 +16,8 @@ const purple_light = {
   "--content-col": "132, 169, 140",
   "--primary-font": "54,48,43",
   "--secondary-font": "5,5,5", 
-  "--container-col": "234,235,230"
+  "--container-col": "234,235,230",
+  "--project-card": "250,250,250"
 };
 
 // Intermediate steps allow us to define multiple values above,
@@ -42,6 +44,9 @@ function create_theme(cfg) {
     
     // Accents
     "--accent-color": "rgb(".concat(cfg["--accent-col"],")"),
+
+    // Project Card
+    "--project-card": "rgb(".concat(cfg["--project-card"],")"),
     
     // Gradients (no RGB here, that's handled in the CSS)
     "--gradient": cfg["--container-col"]

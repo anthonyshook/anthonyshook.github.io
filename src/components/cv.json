@@ -275,17 +275,42 @@
         "Link": "https://github.com/anthonyshook/dfsOptimizer"
       },
       {
+        "Name": "Adaptive Mixed Effects Modeling Package",
+        "Skills": ["R", "Predictive Modeling", "XGBoost", "lmer", "Mixed-Effects"],
+        "Desc": "Combining tree-based, boosted models with Linear Random-Effects",
+        "LongDesc": "AMEM is an R package that combined non-parametric predictive modeling techniques (e.g., XGBoost), and the random-effects component of mixed effects models. It was inspired by <a href='https://www.tandfonline.com/doi/abs/10.1080/00949655.2012.741599'>this paper</a> and <a href='https://github.com/manifoldai/merf'>this Python module</a>."
+      },
+      {
+        "Name": "Voice Style Transfer with Tensorflow2",
+        "Skills": ["Python", "Tensorflow2", "GPU", "Speech"],
+        "Desc": "Python Module to convert one speaker's voice into another person's voice.",
+        "LongDesc": "A Tensorflow2 implementation of <a href='https://arxiv.org/abs/1905.05879'>AUTOVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss</a>. Given the content of one speaker, and the voice-characteristics of another, the goal is to generate one speaker's words in another speaker's voice.  The model uses an auto-encoder design to create a bottleneck that separates the content of speech from the language-independent characteristics of the speaker's voice."
+      }, 
+      {
+        "Name": "Pay Equity Analysis",
+        "Skills": ["R", "Multiple Regression", "Data analysis", "Covariate analysis"],
+        "Desc": "Pay Equity analysis.",
+        "LongDesc": "As an external consultant, I performed a pay equity analysis for a small Chicago-based firm. Specially, the analysis was focused on determining whether there were pay equity issues among various demographic splits within the company."
+      },
+      {
+        "Name": "Scraping NHL Data",
+        "Skills": ["R", "Web Scraping", "PostgreSQL"],
+        "Desc": "Provides tools for pulling NHL data from the NHL API and generating a Postgres Database.",
+        "LongDesc": "An R package that provides tools for pulling data from the NHL API, including player-, game-, and shot-level information.  Includes functionality for building or updating PostgreSQL database.  Inspired by the nhlScrapR package."
+      },
+      {
+        "Name": "Object-Oriented Programming in R",
+        "Skills": ["R", "OOP", "Talks"],
+        "Desc": "Talk given at Chicago R User Group",
+        "LongDesc": "Talk presented at Chicago R User Group. In the talk, I compare and contrast the different Object-Oriented Programming (OOP) frameworks in R (S3, S4, R6), and discuss the ways in which each implements traditional OOP hallmarks like encapsulation and polymorphism.",
+        "Link": "https://github.com/Chicago-R-User-Group/2020-n2-DoubleFeature-Many-ways-to-Lasso-and-OOP-in-R/blob/master/Object-Oriented%20Programming%20in%20R.pdf"
+      },
+      {
         "Name": "Portfolio Website",
         "Skills": ["JSX", "SCSS/CSS", "React", "NPM"],
         "Desc": "Website using JSX and SCSS/CSS, and bootstrapped with React.",
         "LongDesc": "The very website you're looking at right now! The site was built from scratch using JSX and SCSS/CSS, and was bootstrapped with React.  I wanted to build a website for myself in order to become more familiar with JS and SCSS, but to experiment with React as a web/app framework.",
         "Link": "https://github.com/anthonyshook/anthonyshook.github.io/tree/develop"
-      },
-      {
-        "Name": "Adaptive Mixed Effects Model",
-        "Skills": ["R", "Predictive Modeling", "XGBoost", "lmer", "Mixed-Effects"],
-        "Desc": "Combining tree-based, boosted models with Linear Random-Effects",
-        "LongDesc": "AMEM is an R package that combined non-parametric predictive modeling techniques (e.g., XGBoost), and the random-effects component of mixed effects models. It was inspired by <a href='https://www.tandfonline.com/doi/abs/10.1080/00949655.2012.741599'>this paper</a> and <a href='https://github.com/manifoldai/merf'>this Python module</a>."
       }
     ]   
     }
