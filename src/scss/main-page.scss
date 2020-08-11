@@ -309,8 +309,20 @@
         overflow-x: auto;
         max-height: 100vh;
       }
-
     }
+
+    #abt-sup {
+        #short-desc {
+            // make more room for text when screen is small 
+            min-width: 90%;
+        }
+    }
+
+    .skill-container #area {
+        // text align left when screen is small
+        text-align:left;
+    }
+
     .jobcards {
         display: grid;
         grid-template-columns: 1fr 2fr;

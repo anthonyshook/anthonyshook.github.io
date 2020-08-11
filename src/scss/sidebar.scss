@@ -213,18 +213,20 @@ p#Dark {
     transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
     background-color: var(--sidebar-bg);
-  }
+    }
+
   .sidebarMenuInner{
       margin:0;
       padding:0;
-      background-color: var(--sidebar-bg);
   }
+
   .sidebarMenuInner li{
       list-style: none;
       color: var(--sidebar-text);
       padding: 20px;
       cursor: pointer;
   }
+
   .sidebarMenuInner li span{
       display: block;
       font-size: 14px;
@@ -239,6 +241,7 @@ p#Dark {
   }
   input[type="checkbox"]:checked ~ .sidebarMenu {
       transform: translateX(0);
+      box-shadow: 100px 0px 1000px rgba(0, 0, 0, 0.5);
   }
 
   input[type=checkbox] {
