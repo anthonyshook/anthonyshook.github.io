@@ -278,7 +278,8 @@
         "Name": "Adaptive Mixed Effects Modeling Package",
         "Skills": ["R", "Predictive Modeling", "XGBoost", "lmer", "Mixed-Effects"],
         "Desc": "Combining tree-based, boosted models with Linear Random-Effects",
-        "LongDesc": "AMEM is an R package that combined non-parametric predictive modeling techniques (e.g., XGBoost), and the random-effects component of mixed effects models. It was inspired by <a href='https://www.tandfonline.com/doi/abs/10.1080/00949655.2012.741599'>this paper</a> and <a href='https://github.com/manifoldai/merf'>this Python module</a>."
+        "LongDesc": "AMEM is an R package that combined non-parametric predictive modeling techniques (e.g., XGBoost), and the random-effects component of mixed effects models. It was inspired by <a href='https://www.tandfonline.com/doi/abs/10.1080/00949655.2012.741599'>this paper</a> and <a href='https://github.com/manifoldai/merf'>this Python module</a>.",
+        "Link": "https://github.com/anthonyshook/amem"
       },
       {
         "Name": "Voice Style Transfer with Tensorflow2",
@@ -296,7 +297,8 @@
         "Name": "Scraping NHL Data",
         "Skills": ["R", "Web Scraping", "PostgreSQL"],
         "Desc": "Provides tools for pulling NHL data from the NHL API and generating a Postgres Database.",
-        "LongDesc": "An R package that provides tools for pulling data from the NHL API, including player-, game-, and shot-level information.  Includes functionality for building or updating PostgreSQL database.  Inspired by the nhlScrapR package."
+        "LongDesc": "An R package that provides tools for pulling data from the NHL API, including player-, game-, and shot-level information.  Includes functionality for building or updating PostgreSQL database.  Inspired by the <a href='https://github.com/adamazoulay/nhlscrape'>nhlscrape</a> package.",
+        "Link": "https://github.com/anthonyshook/nhldata"
       },
       {
         "Name": "Object-Oriented Programming in R",
