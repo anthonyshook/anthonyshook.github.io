@@ -283,10 +283,17 @@
       },
       {
         "Name": "Voice Style Transfer with Tensorflow2",
-        "Skills": ["Python", "Tensorflow2", "GPU", "Speech"],
+        "Skills": ["Python", "Tensorflow2", "GPU", "Speech Analysis"],
         "Desc": "Python Module to convert one speaker's voice into another person's voice.",
         "LongDesc": "A Tensorflow2 implementation of <a href='https://arxiv.org/abs/1905.05879'>AUTOVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss</a>. Given the content of one speaker, and the voice-characteristics of another, the goal is to generate one speaker's words in another speaker's voice.  The model uses an auto-encoder design to create a bottleneck that separates the content of speech from the language-independent characteristics of the speaker's voice."
       }, 
+      {
+        "Name": "Scraping HealthCare.Gov",
+        "Skills": ["Python", "Web Scraping", "API"],
+        "Desc": "Python Module to scrape information from Healthcare.gov",
+        "LongDesc": "A module built in native Python3 to hit the Healthcare.gov API, parse the output, and generate a standard set of documents including all glossary, blog, and article content from the Healthcare.gov website, in both English and Spanish.",
+        "Link": "https://github.com/anthonyshook/healthcare-scraper"
+      },
       {
         "Name": "Pay Equity Analysis",
         "Skills": ["R", "Multiple Regression", "Data analysis", "Covariate analysis"],
