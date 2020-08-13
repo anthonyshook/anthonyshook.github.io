@@ -2,7 +2,7 @@
 // Themes are defined by RGB
 const basic = {
   "--primary-col": "51,53,51",
-  "--accent-col": "245, 203, 92",
+  "--accent-col": "255,105,180", //"245, 203, 92", //yellow
   "--content-col": "232, 237, 223",
   "--primary-font": "207,219,213",
   "--secondary-font": "207, 219, 213", 
