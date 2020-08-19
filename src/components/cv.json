@@ -320,7 +320,7 @@
         "Desc": "A Resource for Linguistic Neighborhood Density",
         "LongDesc": "The Cross-Linguistic Easy-Access Resource for Phonological and Orthographic Neighborhood Density (CLEARPOND) is a web-based tool that provides neighborhood information for words in and across five languages. It is typically used by linguistic researchers interested in cross-language lexical information, and when designing experimental stimuli.", 
         "Link": "https://clearpond.northwestern.edu/"
-      }
+      },
       {
         "Name": "Portfolio Website",
         "Skills": ["JSX", "SCSS/CSS", "React", "NPM"],
