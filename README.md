@@ -26,3 +26,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+### `npm run deploy`
+
+This will run the deploy script and commit the compiled site code to the master branch of your repo.
