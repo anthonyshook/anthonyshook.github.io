@@ -272,7 +272,7 @@
         "Skills": ["R", "Integer Programming", "Linear Optimization", "GLPK"],
         "Desc": "R Package to generate optimal lineups for Daily-Fantasy Sports.",
         "LongDesc": "An R Package that generates optimal lineups for Daily-Fantasy Sports (DFS).  With a limited budget and estimated values for every player, the model uses greedy integer optimization to determine which set of players provides the highest predicted point outcome within the budget. The R package allows a person to go to one of several DFS sites, download player lists, customize the model in a number of ways, generate multiple lineups, and then export them in a format that is easily uploaded to the DFS site they chose.",
-        "Link": "https://github.com/anthonyshook/dfsOptimizer"
+        "Link": "https://anthonyshook.com/dfsOptimizer"
       },
       {
         "Name": "Adaptive Mixed Effects Modeling Package",
