@@ -1,12 +1,12 @@
 {
   "Employment": [
     {
-      "title": "Lead Data Scientist",
-      "employer": "Jellyvision Labs, Inc.",
-      "start": "Nov. 2018",
+      "title": "Lead Data Scientist & Algorithm Engineer",
+      "employer": "Rise Science",
+      "start": "June 2021",
       "end": "Present",
-      "icon": "icon-lab2",
-      "desc": "Manage a team of Data Scientists, who provide product analytics and develop BI solutions for both customers and internal stakeholders; direct Data Engineering efforts for enterprise Analytics infrastruture; Work closely with product organization to research and develop new data products."
+      "icon": "icon-sun2",
+      "desc": "Lead Developer of predictive and prescriptive algorithms related to sleep and energy tracking; technical lead for data engineering function, developing systems and processes for managing critical business and user data."
     },
     {
       "title": "VP of Data & Operations",
@@ -15,6 +15,14 @@
       "end": "Present",
       "icon": "icon-data",
       "desc": "Maintainence and Development of Server Infrastructure for subscription based e-commerce / blogging website focused on Fantasy Sports analytics; Responsibilities include developing ETL pipelines for sports analytics data, maintaining website and data pipeline infrastructure, advanced analytics/modeling, and developing Shiny-based web applications."
+    },
+    {
+      "title": "Lead Data Scientist",
+      "employer": "Jellyvision Labs, Inc.",
+      "start": "Nov. 2018",
+      "end": "June 2021",
+      "icon": "icon-lab2",
+      "desc": "Manage a team of Data Scientists, who provide product analytics and develop BI solutions for both customers and internal stakeholders; direct Data Engineering efforts for enterprise Analytics infrastruture; Work closely with product organization to research and develop new data products."
     },
     {
       "title": "Senior Data Scientist",
@@ -29,8 +37,8 @@
       "employer": "Mbira Technologies",
       "start": "March 2015",
       "end": "July 2016",
-      "icon":"icon-bar-graph-2",
-      "desc":"Responsibilities: A/B and multivariant testing; data management and reporting; development of statistical models for predicting customer behavior and monitoring key performance metrics on large and varied data; communication of statistical findings to marketing, business, and project management."
+      "icon": "icon-bar-graph-2",
+      "desc": "Responsibilities: A/B and multivariant testing; data management and reporting; development of statistical models for predicting customer behavior and monitoring key performance metrics on large and varied data; communication of statistical findings to marketing, business, and project management."
     },
     {
       "title": "Visiting Assistant Professor",
@@ -41,292 +49,334 @@
       "desc": "Professor in Communication Sciences and Disorders at Northwestern University. Responsibilities included teaching undergraduate and graduate level college courses, serving on academic and departmental committees at the University."
     }
   ],
-    "Education": [
-      {
-        "school": "Northwestern University",
-        "gradYear": 2014,
-        "degree": "Doctor of Philosophy (Ph.D)",
-        "dept": "Communication Sciences & Disorders",
-        "focus": "Cognitive Science / Psycholinguistics",
-        "logopath": "images/NU_seal2.png"
-      },
-      {
-        "school": "University of Rochester",
-        "gradYear": 2006,
-        "degree": "Bachelor of Arts (B.A.)",
-        "dept": "Brain & Cognitive Sciences",
-        "focus": "Psycholinguistics",
-        "logopath": "images/UR_seal.png"
-      }
-    ],
-    "PeerReviewedArticles": [
-      {
-        "authors": "Hayakawa, S., Shook, A., & Marian, V.",
-        "year": 2020,
-        "title": "When it’s harder to ignorar than to ignore: Evidence of greater attentional capture from a non-dominant language.",
-        "journal": "International Journal of Bilingualism",
-        "doi": "10.1177/1367006920915277"
-      },
-      {
-        "authors": "Shook, A., & Marian, V.",
-        "year": 2018,
-        "title": "Covert co-activation of bilinguals' non-target language: Phonological competition from translations.",
-        "journal": "Linguistic Approaches to Bilingualism",
-        "doi": "10.1075/lab.17022.sho"
-      },
-      {
-        "authors": "Shook, A., & Marian, V.",
-        "year": 2016,
-        "title": "The influence of native-language tones on lexical access in the second language.",
-        "journal": "Journal of the Acoustical Society of America",
-        "doi": "10.1121/1.4953692"
-      },
-      {
-        "authors": "Schroeder, S. R., Marian, V., Shook, A., & Bartolotti, J.",
-        "year": 2016,
-        "title": "Bilingualism and musicianship enhance cognitive control.",
-        "journal": "Neural Plasticity",
-        "doi": "10.1155/2016/4058620"
-      },
-      {
-        "authors": "Giezen, M. R., Blumenfeld, H. K., Shook, A., Marian, V., & Emmorey, K.",
-        "year": 2015,
-        "title": "Parallel language activation and inhibitory control in bimodal bilinguals.",
-        "journal": "Cognition",
-        "doi": "10.1016/j.cognition.2015.04.009"
-      },
-      {
-        "authors": "Shook, A., Goldrick, M., Engstler, C., & Marian, V.",
-        "year": 2014,
-        "title": "Bilinguals show weaker lexical access during spoken sentence comprehension.",
-        "journal": "Journal of Psycholinguistic Research",
-        "doi": "10.1007/s10936-014-9322-6"
-      },
-      {
-        "authors": "Shook, A., & Marian, V.",
-        "year": 2013,
-        "title": "The Bilingual Language Interaction Network for Comprehension of Speech.",
-        "journal": "Bilingualism: Language and Cognition",
-        "doi": "10.1017/S1366728912000466"
-      },
-      {
-        "authors": "Marian, V., Shook, A., & Schroeder, S. R.",
-        "year": 2013,
-        "title": "Bilingual two-way immersion programs benefit academic achievement.",
-        "journal": "Bilingual Research Journal",
-        "doi": "10.1080/15235882.2013.818075"
-      },
-      {
-        "authors": "Shook, A., Bartolotti, J., Schroeder, S. R., & Marian, V.",
-        "year": 2013,
-        "title": "Musical experience influences novel language learning.",
-        "journal": "American Journal of Psychology",
-        "doi": "10.5406/amerjpsyc.126.1.0095"
-      },
-      {
-        "authors": "Marian, V., Bartolotti, J., Chabal, S., & Shook, A.",
-        "year": 2012,
-        "title": "CLEARPOND: Cross-Linguistic Easy-Access Resource for Phonological and Orthographic Neighborhood Densities.",
-        "journal": "PLoS ONE",
-        "doi": "10.1371/journal.pone.004323"
-      },
-      {
-        "authors": "Shook, A., & Marian, V.",
-        "year": 2012,
-        "title": "Bimodal bilinguals co-activate both languages during spoken comprehension.",
-        "journal": "Cognition",
-        "doi": "10.1016/j.cognition.2012.05.014"
-      },
-      {
-        "authors": "Krizman, J., Marian, V., Shook, A., Skoe, E., & Kraus, N.",
-        "year": 2012,
-        "title": "Subcortical encoding of sound is enhanced in bilinguals and relates to executive function advantages.",
-        "journal": "Proceedings of the National Academy of Sciences",
-        "doi": "10.1073/pnas.1201575109"
-      },
-      {
-        "authors": "Bartolotti, J., Marian, V., Schroeder, S. R., & Shook, A.",
-        "year": 2011,
-        "title": "Bilingualism and inhibitory control influence statistical learning of novel word forms.",
-        "journal": "Frontiers in Cognition",
-        "doi": "10.3389/fpsyg.2011.00324"
-      }
-    ],
-    "confPresentations": [
-      {
-        "authors": "Marian, V., Bartolotti, J., Shook, A., Schroeder, S.",
-        "title": "Research tutorial: Assessing phonological and orthographic neighborhood density in English, Spanish, French, German, and Dutch.",
-        "conf": "Abstracts of the AILA 2017 World Congress of Applied Linguistics",
-        "location": "Rio de Janeiro, Brazil",
-        "when": "2017, July"
-      },
-      {
-        "authors": "Shook, A., & Marian, V.",
-        "title": "Native-language Tones Influence Lexical Access in the Second Language.",
-        "conf": "International Meeting of the Psychonomic Society",
-        "location": "Granada, Spain",
-        "when": "2016, May"
-      },
-      {
-        "authors": "Shook, A., & Marian, V.",
-        "title": "Automatic Activation of Translation Equivalents During Bilingual Spoken Comprehension.",
-        "conf": "Annual Meeting of the Psychonomic Society",
-        "location": "Long Beach, CA",
-        "when": "2014, November"
-      },
-      {
-        "authors": "Shook, A., & Marian, V.",
-        "title": " Language Co-Activation in Single-Language Contexts.",
-        "conf": "University of Illinois-Chicago Bilingualism Forum",
-        "location": "Chicago, IL",
-        "when": "2014, October"
-      }
-    ],
-    "techSkills": [
-      {
-        "Area": "Programming Languages",
-        "SkillSet": [
-          {
-            "Name": "R"
-          },
-          {
-            "Name": "Python"
-          },
-          {
-            "Name": "Perl"
-          },
-          {
-            "Name": "Julia"
-          }
-        ]
-      },
-      {
-        "Area": "Web Development",
-        "SkillSet": [
-          {
-            "Name": "HTML / CSS (SASS)"
-          },
-          {
-            "Name": "PHP"
-          },
-          {
-            "Name": "NGINX"
-          },
-          {
-            "Name": "Apache"   
-          }
-        ]
-      },
-      {
-        "Area": "Databases",
-        "SkillSet": [
-          {
-            "Name": "MySQL"
-          },
-          {
-            "Name": "PostgreSQL"
-          },
-          {
-            "Name": "Snowflake"
-          },
-          {
-            "Name": "Transact-SQL"
-          }
-        ]
-      },
-      {
-        "Area": "Data Visualization and Reporting",
-        "SkillSet": [
-          {
-            "Name": "Looker"
-          },
-          {
-            "Name": "Shiny"
-          }
-        ]
-      },
-      {
-        "Area": "Machine Learning & Statistics",
-        "SkillSet": [
-          {
-            "Name": "Keras"
-          },
-          {
-            "Name": "Tensorflow"
-          },
-          {
-            "Name": "caret"
-          },
-          {
-            "Name": "scikit-learn"
-          },
-          {
-            "Name": "PyTorch"
-          }
-        ]
-      }        
-    ],
-    "Projects": [
-      {
-        "Name": "Daily-Fantasy Lineup Optimizer",
-        "Skills": ["R", "Integer Programming", "Linear Optimization", "GLPK"],
-        "Desc": "R Package to generate optimal lineups for Daily-Fantasy Sports.",
-        "LongDesc": "An R Package that generates optimal lineups for Daily-Fantasy Sports (DFS).  With a limited budget and estimated values for every player, the model uses greedy integer optimization to determine which set of players provides the highest predicted point outcome within the budget. The R package allows a person to go to one of several DFS sites, download player lists, customize the model in a number of ways, generate multiple lineups, and then export them in a format that is easily uploaded to the DFS site they chose.",
-        "Link": "https://anthonyshook.com/dfsOptimizer"
-      },
-      {
-        "Name": "Adaptive Mixed Effects Modeling Package",
-        "Skills": ["R", "Predictive Modeling", "XGBoost", "lmer", "Mixed-Effects"],
-        "Desc": "Combining tree-based, boosted models with Linear Random-Effects",
-        "LongDesc": "AMEM is an R package that combined non-parametric predictive modeling techniques (e.g., XGBoost), and the random-effects component of mixed effects models. It was inspired by <a href='https://www.tandfonline.com/doi/abs/10.1080/00949655.2012.741599'>this paper</a> and <a href='https://github.com/manifoldai/merf'>this Python module</a>.",
-        "Link": "https://github.com/anthonyshook/amem"
-      },
-      {
-        "Name": "Voice Style Transfer with Tensorflow2",
-        "Skills": ["Python", "Tensorflow2", "GPU", "Speech Analysis"],
-        "Desc": "Python Module to convert one speaker's voice into another person's voice.",
-        "LongDesc": "A Tensorflow2 implementation of <a href='https://arxiv.org/abs/1905.05879'>AUTOVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss</a>. Given the content of one speaker, and the voice-characteristics of another, the goal is to generate one speaker's words in another speaker's voice.  The model uses an auto-encoder design to create a bottleneck that separates the content of speech from the language-independent characteristics of the speaker's voice."
-      }, 
-      {
-        "Name": "Scraping HealthCare.Gov",
-        "Skills": ["Python", "Web Scraping", "API"],
-        "Desc": "Python Module to scrape information from Healthcare.gov",
-        "LongDesc": "A module built in native Python3 to hit the Healthcare.gov API, parse the output, and generate a standard set of documents including all glossary, blog, and article content from the Healthcare.gov website, in both English and Spanish.",
-        "Link": "https://github.com/anthonyshook/healthcare-scraper"
-      },
-      {
-        "Name": "Pay Equity Analysis",
-        "Skills": ["R", "Multiple Regression", "Data analysis", "Covariate analysis"],
-        "Desc": "Pay Equity analysis.",
-        "LongDesc": "As an external consultant, I performed a pay equity analysis for a small Chicago-based firm. Specially, the analysis was focused on determining whether there were pay equity issues among various demographic splits within the company."
-      },
-      {
-        "Name": "Scraping NHL Data",
-        "Skills": ["R", "Web Scraping", "PostgreSQL"],
-        "Desc": "Provides tools for pulling NHL data from the NHL API and generating a Postgres Database.",
-        "LongDesc": "An R package that provides tools for pulling data from the NHL API, including player-, game-, and shot-level information.  Includes functionality for building or updating PostgreSQL database.  Inspired by the <a href='https://github.com/adamazoulay/nhlscrape'>nhlscrape</a> package.",
-        "Link": "https://github.com/anthonyshook/nhldata"
-      },
-      {
-        "Name": "Object-Oriented Programming in R",
-        "Skills": ["R", "OOP", "Talks"],
-        "Desc": "Talk given at Chicago R User Group",
-        "LongDesc": "Talk presented at Chicago R User Group. In the talk, I compare and contrast the different Object-Oriented Programming (OOP) frameworks in R (S3, S4, R6), and discuss the ways in which each implements traditional OOP hallmarks like encapsulation and polymorphism.",
-        "Link": "https://github.com/Chicago-R-User-Group/2020-n2-DoubleFeature-Many-ways-to-Lasso-and-OOP-in-R/blob/master/Object-Oriented%20Programming%20in%20R.pdf"
-      },
-      {
-        "Name": "CLEARPOND: A tool for linguistic neighborhood densities",
-        "Skills": ["CSS", "HTML", "PERL"],
-        "Desc": "A Resource for Linguistic Neighborhood Density",
-        "LongDesc": "The Cross-Linguistic Easy-Access Resource for Phonological and Orthographic Neighborhood Density (CLEARPOND) is a web-based tool that provides neighborhood information for words in and across five languages. It is typically used by linguistic researchers interested in cross-language lexical information, and when designing experimental stimuli.", 
-        "Link": "https://clearpond.northwestern.edu/"
-      },
-      {
-        "Name": "Portfolio Website",
-        "Skills": ["JSX", "SCSS/CSS", "React", "NPM"],
-        "Desc": "Website using JSX and SCSS/CSS, and bootstrapped with React.",
-        "LongDesc": "The very website you're looking at right now! The site was built from scratch using JSX and SCSS/CSS, and was bootstrapped with React.  I wanted to build a website for myself in order to become more familiar with JS and SCSS, but to experiment with React as a web/app framework.",
-        "Link": "https://github.com/anthonyshook/anthonyshook.github.io/tree/develop"
-      }
-    ]   
+  "Education": [
+    {
+      "school": "Northwestern University",
+      "gradYear": 2014,
+      "degree": "Doctor of Philosophy (Ph.D)",
+      "dept": "Communication Sciences & Disorders",
+      "focus": "Cognitive Science / Psycholinguistics",
+      "logopath": "images/NU_seal2.png"
+    },
+    {
+      "school": "University of Rochester",
+      "gradYear": 2006,
+      "degree": "Bachelor of Arts (B.A.)",
+      "dept": "Brain & Cognitive Sciences",
+      "focus": "Psycholinguistics",
+      "logopath": "images/UR_seal.png"
     }
+  ],
+  "PeerReviewedArticles": [
+    {
+      "authors": "Hayakawa, S., Shook, A., & Marian, V.",
+      "year": 2020,
+      "title": "When it’s harder to ignorar than to ignore: Evidence of greater attentional capture from a non-dominant language.",
+      "journal": "International Journal of Bilingualism",
+      "doi": "10.1177/1367006920915277"
+    },
+    {
+      "authors": "Shook, A., & Marian, V.",
+      "year": 2018,
+      "title": "Covert co-activation of bilinguals' non-target language: Phonological competition from translations.",
+      "journal": "Linguistic Approaches to Bilingualism",
+      "doi": "10.1075/lab.17022.sho"
+    },
+    {
+      "authors": "Shook, A., & Marian, V.",
+      "year": 2016,
+      "title": "The influence of native-language tones on lexical access in the second language.",
+      "journal": "Journal of the Acoustical Society of America",
+      "doi": "10.1121/1.4953692"
+    },
+    {
+      "authors": "Schroeder, S. R., Marian, V., Shook, A., & Bartolotti, J.",
+      "year": 2016,
+      "title": "Bilingualism and musicianship enhance cognitive control.",
+      "journal": "Neural Plasticity",
+      "doi": "10.1155/2016/4058620"
+    },
+    {
+      "authors": "Giezen, M. R., Blumenfeld, H. K., Shook, A., Marian, V., & Emmorey, K.",
+      "year": 2015,
+      "title": "Parallel language activation and inhibitory control in bimodal bilinguals.",
+      "journal": "Cognition",
+      "doi": "10.1016/j.cognition.2015.04.009"
+    },
+    {
+      "authors": "Shook, A., Goldrick, M., Engstler, C., & Marian, V.",
+      "year": 2014,
+      "title": "Bilinguals show weaker lexical access during spoken sentence comprehension.",
+      "journal": "Journal of Psycholinguistic Research",
+      "doi": "10.1007/s10936-014-9322-6"
+    },
+    {
+      "authors": "Shook, A., & Marian, V.",
+      "year": 2013,
+      "title": "The Bilingual Language Interaction Network for Comprehension of Speech.",
+      "journal": "Bilingualism: Language and Cognition",
+      "doi": "10.1017/S1366728912000466"
+    },
+    {
+      "authors": "Marian, V., Shook, A., & Schroeder, S. R.",
+      "year": 2013,
+      "title": "Bilingual two-way immersion programs benefit academic achievement.",
+      "journal": "Bilingual Research Journal",
+      "doi": "10.1080/15235882.2013.818075"
+    },
+    {
+      "authors": "Shook, A., Bartolotti, J., Schroeder, S. R., & Marian, V.",
+      "year": 2013,
+      "title": "Musical experience influences novel language learning.",
+      "journal": "American Journal of Psychology",
+      "doi": "10.5406/amerjpsyc.126.1.0095"
+    },
+    {
+      "authors": "Marian, V., Bartolotti, J., Chabal, S., & Shook, A.",
+      "year": 2012,
+      "title": "CLEARPOND: Cross-Linguistic Easy-Access Resource for Phonological and Orthographic Neighborhood Densities.",
+      "journal": "PLoS ONE",
+      "doi": "10.1371/journal.pone.004323"
+    },
+    {
+      "authors": "Shook, A., & Marian, V.",
+      "year": 2012,
+      "title": "Bimodal bilinguals co-activate both languages during spoken comprehension.",
+      "journal": "Cognition",
+      "doi": "10.1016/j.cognition.2012.05.014"
+    },
+    {
+      "authors": "Krizman, J., Marian, V., Shook, A., Skoe, E., & Kraus, N.",
+      "year": 2012,
+      "title": "Subcortical encoding of sound is enhanced in bilinguals and relates to executive function advantages.",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "doi": "10.1073/pnas.1201575109"
+    },
+    {
+      "authors": "Bartolotti, J., Marian, V., Schroeder, S. R., & Shook, A.",
+      "year": 2011,
+      "title": "Bilingualism and inhibitory control influence statistical learning of novel word forms.",
+      "journal": "Frontiers in Cognition",
+      "doi": "10.3389/fpsyg.2011.00324"
+    }
+  ],
+  "confPresentations": [
+    {
+      "authors": "Marian, V., Bartolotti, J., Shook, A., Schroeder, S.",
+      "title": "Research tutorial: Assessing phonological and orthographic neighborhood density in English, Spanish, French, German, and Dutch.",
+      "conf": "Abstracts of the AILA 2017 World Congress of Applied Linguistics",
+      "location": "Rio de Janeiro, Brazil",
+      "when": "2017, July"
+    },
+    {
+      "authors": "Shook, A., & Marian, V.",
+      "title": "Native-language Tones Influence Lexical Access in the Second Language.",
+      "conf": "International Meeting of the Psychonomic Society",
+      "location": "Granada, Spain",
+      "when": "2016, May"
+    },
+    {
+      "authors": "Shook, A., & Marian, V.",
+      "title": "Automatic Activation of Translation Equivalents During Bilingual Spoken Comprehension.",
+      "conf": "Annual Meeting of the Psychonomic Society",
+      "location": "Long Beach, CA",
+      "when": "2014, November"
+    },
+    {
+      "authors": "Shook, A., & Marian, V.",
+      "title": " Language Co-Activation in Single-Language Contexts.",
+      "conf": "University of Illinois-Chicago Bilingualism Forum",
+      "location": "Chicago, IL",
+      "when": "2014, October"
+    }
+  ],
+  "techSkills": [
+    {
+      "Area": "Programming Languages",
+      "SkillSet": [
+        {
+          "Name": "R"
+        },
+        {
+          "Name": "Python"
+        },
+        {
+          "Name": "Perl"
+        },
+        {
+          "Name": "Julia"
+        }
+      ]
+    },
+    {
+      "Area": "Web Development",
+      "SkillSet": [
+        {
+          "Name": "HTML / CSS (SASS)"
+        },
+        {
+          "Name": "PHP"
+        },
+        {
+          "Name": "NGINX"
+        },
+        {
+          "Name": "Apache"
+        }
+      ]
+    },
+    {
+      "Area": "Databases",
+      "SkillSet": [
+        {
+          "Name": "MySQL"
+        },
+        {
+          "Name": "PostgreSQL"
+        },
+        {
+          "Name": "Snowflake"
+        },
+        {
+          "Name": "Transact-SQL"
+        }
+      ]
+    },
+    {
+      "Area": "Data Visualization and Reporting",
+      "SkillSet": [
+        {
+          "Name": "Looker"
+        },
+        {
+          "Name": "Shiny"
+        }
+      ]
+    },
+    {
+      "Area": "Machine Learning & Statistics",
+      "SkillSet": [
+        {
+          "Name": "Keras"
+        },
+        {
+          "Name": "Tensorflow"
+        },
+        {
+          "Name": "caret"
+        },
+        {
+          "Name": "scikit-learn"
+        },
+        {
+          "Name": "PyTorch"
+        }
+      ]
+    }
+  ],
+  "Projects": [
+    {
+      "Name": "Daily-Fantasy Lineup Optimizer",
+      "Skills": [
+        "R",
+        "Integer Programming",
+        "Linear Optimization",
+        "GLPK"
+      ],
+      "Desc": "R Package to generate optimal lineups for Daily-Fantasy Sports.",
+      "LongDesc": "An R Package that generates optimal lineups for Daily-Fantasy Sports (DFS).  With a limited budget and estimated values for every player, the model uses greedy integer optimization to determine which set of players provides the highest predicted point outcome within the budget. The R package allows a person to go to one of several DFS sites, download player lists, customize the model in a number of ways, generate multiple lineups, and then export them in a format that is easily uploaded to the DFS site they chose.",
+      "Link": "https://anthonyshook.com/dfsOptimizer"
+    },
+    {
+      "Name": "Adaptive Mixed Effects Modeling Package",
+      "Skills": [
+        "R",
+        "Predictive Modeling",
+        "XGBoost",
+        "lmer",
+        "Mixed-Effects"
+      ],
+      "Desc": "Combining tree-based, boosted models with Linear Random-Effects",
+      "LongDesc": "AMEM is an R package that combined non-parametric predictive modeling techniques (e.g., XGBoost), and the random-effects component of mixed effects models. It was inspired by <a href='https://www.tandfonline.com/doi/abs/10.1080/00949655.2012.741599'>this paper</a> and <a href='https://github.com/manifoldai/merf'>this Python module</a>.",
+      "Link": "https://github.com/anthonyshook/amem"
+    },
+    {
+      "Name": "Voice Style Transfer with Tensorflow2",
+      "Skills": [
+        "Python",
+        "Tensorflow2",
+        "GPU",
+        "Speech Analysis"
+      ],
+      "Desc": "Python Module to convert one speaker's voice into another person's voice.",
+      "LongDesc": "A Tensorflow2 implementation of <a href='https://arxiv.org/abs/1905.05879'>AUTOVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss</a>. Given the content of one speaker, and the voice-characteristics of another, the goal is to generate one speaker's words in another speaker's voice.  The model uses an auto-encoder design to create a bottleneck that separates the content of speech from the language-independent characteristics of the speaker's voice."
+    },
+    {
+      "Name": "Scraping HealthCare.Gov",
+      "Skills": [
+        "Python",
+        "Web Scraping",
+        "API"
+      ],
+      "Desc": "Python Module to scrape information from Healthcare.gov",
+      "LongDesc": "A module built in native Python3 to hit the Healthcare.gov API, parse the output, and generate a standard set of documents including all glossary, blog, and article content from the Healthcare.gov website, in both English and Spanish.",
+      "Link": "https://github.com/anthonyshook/healthcare-scraper"
+    },
+    {
+      "Name": "Pay Equity Analysis",
+      "Skills": [
+        "R",
+        "Multiple Regression",
+        "Data analysis",
+        "Covariate analysis"
+      ],
+      "Desc": "Pay Equity analysis.",
+      "LongDesc": "As an external consultant, I performed a pay equity analysis for a small Chicago-based firm. Specially, the analysis was focused on determining whether there were pay equity issues among various demographic splits within the company."
+    },
+    {
+      "Name": "Scraping NHL Data",
+      "Skills": [
+        "R",
+        "Web Scraping",
+        "PostgreSQL"
+      ],
+      "Desc": "Provides tools for pulling NHL data from the NHL API and generating a Postgres Database.",
+      "LongDesc": "An R package that provides tools for pulling data from the NHL API, including player-, game-, and shot-level information.  Includes functionality for building or updating PostgreSQL database.  Inspired by the <a href='https://github.com/adamazoulay/nhlscrape'>nhlscrape</a> package.",
+      "Link": "https://github.com/anthonyshook/nhldata"
+    },
+    {
+      "Name": "Object-Oriented Programming in R",
+      "Skills": [
+        "R",
+        "OOP",
+        "Talks"
+      ],
+      "Desc": "Talk given at Chicago R User Group",
+      "LongDesc": "Talk presented at Chicago R User Group. In the talk, I compare and contrast the different Object-Oriented Programming (OOP) frameworks in R (S3, S4, R6), and discuss the ways in which each implements traditional OOP hallmarks like encapsulation and polymorphism.",
+      "Link": "https://github.com/Chicago-R-User-Group/2020-n2-DoubleFeature-Many-ways-to-Lasso-and-OOP-in-R/blob/master/Object-Oriented%20Programming%20in%20R.pdf"
+    },
+    {
+      "Name": "CLEARPOND: A tool for linguistic neighborhood densities",
+      "Skills": [
+        "CSS",
+        "HTML",
+        "PERL"
+      ],
+      "Desc": "A Resource for Linguistic Neighborhood Density",
+      "LongDesc": "The Cross-Linguistic Easy-Access Resource for Phonological and Orthographic Neighborhood Density (CLEARPOND) is a web-based tool that provides neighborhood information for words in and across five languages. It is typically used by linguistic researchers interested in cross-language lexical information, and when designing experimental stimuli.",
+      "Link": "https://clearpond.northwestern.edu/"
+    },
+    {
+      "Name": "Portfolio Website",
+      "Skills": [
+        "JSX",
+        "SCSS/CSS",
+        "React",
+        "NPM"
+      ],
+      "Desc": "Website using JSX and SCSS/CSS, and bootstrapped with React.",
+      "LongDesc": "The very website you're looking at right now! The site was built from scratch using JSX and SCSS/CSS, and was bootstrapped with React.  I wanted to build a website for myself in order to become more familiar with JS and SCSS, but to experiment with React as a web/app framework.",
+      "Link": "https://github.com/anthonyshook/anthonyshook.github.io/tree/develop"
+    }
+  ]
+}
