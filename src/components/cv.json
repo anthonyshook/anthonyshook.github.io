@@ -276,6 +276,16 @@
   ],
   "Projects": [
     {
+      "Name": "Personal History of Live Music",
+      "Skills": [
+        "R",
+        "Shiny"
+      ],
+      "Desc": "WebApp built in Shiny to Catalog my Concert History",
+      "LongDesc": "I built a Web Application in Shiny with the intention of capturing every band / artist I've seen live, with as much detail as possible (including Venues and Dates when available). It includes the raw data, as well as some summary visualizations to explore the data.",
+      "Link": "https://ashook.shinyapps.io/liveshowdash/"
+    },
+    {
       "Name": "Daily-Fantasy Lineup Optimizer",
       "Skills": [
         "R",
