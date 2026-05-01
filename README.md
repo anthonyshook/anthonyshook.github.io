@@ -30,3 +30,9 @@ You will also see any lint errors in the console.
 ### `npm run deploy`
 
 This will run the deploy script and commit the compiled site code to the master branch of your repo.
+
+### Go edit on github
+
+Once `npm run deploy` is done, you'll need to reset the Github pages link to anthonyshook.com.
+
+Do this by going to the Repository for this site, then settings, then pages

@@ -199,17 +199,11 @@
         },
         {
           "Name": "Python"
-        },
-        {
-          "Name": "Perl"
-        },
-        {
-          "Name": "Julia"
         }
       ]
     },
     {
-      "Area": "Web Development",
+      "Area": "Web / App Development",
       "SkillSet": [
         {
           "Name": "HTML / CSS (SASS)"
@@ -222,6 +216,18 @@
         },
         {
           "Name": "Apache"
+        },
+        {
+          "Name": "React"
+        },
+        {
+          "Name": "Shiny"
+        },
+        {
+          "Name": "Swift"
+        },
+        {
+          "Name": "Kotlin"
         }
       ]
     },
@@ -229,7 +235,7 @@
       "Area": "Databases",
       "SkillSet": [
         {
-          "Name": "MySQL"
+          "Name": "MySQL / MariaDB"
         },
         {
           "Name": "PostgreSQL"
@@ -250,6 +256,18 @@
         },
         {
           "Name": "Shiny"
+        }, 
+        {
+          "Name": "ggplot2"
+        },
+        {
+          "Name": "Matplotlib"
+        },
+        {
+          "Name": "Seaborn"
+        }, 
+        {
+          "Name": "Metabase"
         }
       ]
     },
@@ -261,9 +279,6 @@
         },
         {
           "Name": "Tensorflow"
-        },
-        {
-          "Name": "caret"
         },
         {
           "Name": "scikit-learn"
