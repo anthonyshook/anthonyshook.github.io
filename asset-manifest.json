@@ -1,22 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.814c1ab1.chunk.css",
-    "main.js": "/static/js/main.fe7911be.chunk.js",
-    "main.js.map": "/static/js/main.fe7911be.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f5e9834c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f5e9834c.js.map",
-    "static/js/2.15dc3f24.chunk.js": "/static/js/2.15dc3f24.chunk.js",
-    "static/js/2.15dc3f24.chunk.js.map": "/static/js/2.15dc3f24.chunk.js.map",
+    "main.css": "/static/css/main.48e30439.css",
+    "main.js": "/static/js/main.87d34f92.js",
+    "static/media/pelican.jpg": "/static/media/pelican.b84c96ff7da8cbc9bc8e.jpg",
+    "static/media/icomoon.svg?srf3rx": "/static/media/icomoon.55ae99cd566555bfee00.svg",
+    "static/media/icomoon.eot?srf3rx": "/static/media/icomoon.0ff946619d477586cfd1.eot",
+    "static/media/icomoon.woff?srf3rx": "/static/media/icomoon.56467942e1535e3f500e.woff",
+    "static/media/icomoon.ttf?srf3rx": "/static/media/icomoon.b3f7a663ce44c2f91d04.ttf",
     "index.html": "/index.html",
-    "precache-manifest.11795d37918bb64a7c65af0629391874.js": "/precache-manifest.11795d37918bb64a7c65af0629391874.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.814c1ab1.chunk.css.map": "/static/css/main.814c1ab1.chunk.css.map",
-    "static/js/2.15dc3f24.chunk.js.LICENSE.txt": "/static/js/2.15dc3f24.chunk.js.LICENSE.txt"
+    "main.48e30439.css.map": "/static/css/main.48e30439.css.map",
+    "main.87d34f92.js.map": "/static/js/main.87d34f92.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.f5e9834c.js",
-    "static/js/2.15dc3f24.chunk.js",
-    "static/css/main.814c1ab1.chunk.css",
-    "static/js/main.fe7911be.chunk.js"
+    "static/css/main.48e30439.css",
+    "static/js/main.87d34f92.js"
   ]
 }
